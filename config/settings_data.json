@@ -1,0 +1,6639 @@
+{
+
+"current": {
+
+
+"use_logo": true,
+
+
+"customer_layout": "theme",
+
+
+"base_font": "Montserrat",
+
+
+"show_meta_keyword": false,
+
+
+"meta_keyword": "hhh Theme mặc định, Theme bán hàng, Theme haravan",
+
+
+"header_r_phone": "1900.636.099",
+
+
+"header_desc_1": "Miễn phí vận chuyển",
+
+
+"header_desc_2": "ĐƠN HÀNG TRÊN 900K",
+
+
+"slide_1": true,
+
+
+"slide_1_cap_1": "Sưu tập xuân hè",
+
+
+"slide_1_cap_2": "Thời trang xuất khẩu",
+
+
+"slide_1_btn": "Xem thêm",
+
+
+"slide_1_link": "/collections/all",
+
+
+"align_title1": "center",
+
+
+"animate_title1": "bounceIn",
+
+
+"slide_2": true,
+
+
+"slide_2_cap_1": "Sưu tập mới",
+
+
+"slide_2_cap_2": "phụ kiện dạo phố",
+
+
+"slide_2_btn": "Xem thêm",
+
+
+"slide_2_link": "/collections/all",
+
+
+"align_title2": "center",
+
+
+"animate_title2": "bounceInRight",
+
+
+"slide_3": true,
+
+
+"slide_3_cap_1": "Thời trang",
+
+
+"slide_3_cap_2": "Phụ kiện thời trang",
+
+
+"slide_3_btn": "Xem thêm",
+
+
+"slide_3_link": "/collections/all",
+
+
+"align_title3": "center",
+
+
+"animate_title3": "bounceInLeft",
+
+
+"slide_4": true,
+
+
+"slide_4_cap_1": "",
+
+
+"slide_4_cap_2": "",
+
+
+"slide_4_btn": "",
+
+
+"slide_4_link": "/collections/all",
+
+
+"align_title4": "center",
+
+
+"animate_title4": "fade",
+
+
+"use_featured_products": true,
+
+
+"featured_products_cap": "Bộ sưu tập mới nhất",
+
+
+"featured_products_title": "Sản phẩm mới",
+
+
+"featured_collection": "hot-products",
+
+
+"use_icon_featured": true,
+
+
+"use_sale_products": true,
+
+
+"sale_products_cap": "",
+
+
+"sale_products_title": "Sản phẩm mới",
+
+
+"sale_collection": "onsale",
+
+
+"use_icon_sale": true,
+
+
+"use_ad_banners": "1",
+
+
+"ad_banner_1": "Miễn phí vận chuyển",
+
+
+"ad_banner_2": "Với tất cả đơn hàng trên 500k",
+
+
+"ad_banner_desc": "Miễn phí 2 ngày vận chuyển với đơn hàng trên 500k trừ trực tiếp khi thanh toán",
+
+
+"ad_banner_link": "/",
+
+
+"show_block_home_category1": false,
+
+
+"block_home_category1_title": "Dây chuyền sản xuất bánh mì",
+
+
+"block_home_category1_link": "/collections/all",
+
+
+"show_block_home_category2": false,
+
+
+"block_home_category2_title": "Sản xuất công nghiệp",
+
+
+"block_home_category2_link": "/collections/all",
+
+
+"footer_bg": "#252a2b",
+
+
+"footer_title_colour": "#8d9090",
+
+
+"footer_txt_colour": "#ffffff",
+
+
+"footer_link_colour_hover": "#ff9e9e",
+
+
+"footer_bg_cp": " #141718",
+
+
+"footer_about_show": true,
+
+
+"footer_about_heading": "Hotline hỗ trợ",
+
+
+"footer_about_message": "Với hơn 100 nhân viên tư vấn trên mọi phương diện, không chỉ là hướng dẫn và xử lý các vấn đề từ Haravan, chúng tôi luôn mong cùng chia sẻ các kinh nghiệm giúp bạn bán được nhiều hàng hơn.",
+
+
+"footer_about_address": "56 Vân côi, Q. Tân Bình, Tp.HCM",
+
+
+"footer_about_email": "hi@haravan.com",
+
+
+"footer_about_phone": "1900.636.099",
+
+
+"footer_about_fax": "1900.636.099",
+
+
+"footer_linklist1_show": true,
+
+
+"footer_linklist1_heading": "Liên kết",
+
+
+"footer_linklist1": "",
+
+
+"mailing_list_show": true,
+
+
+"mailing_list_heading": "Đăng kí nhận tin",
+
+
+"mailing_list_caption": "Hãy nhập email của bạn vào đây để nhận tin mới nhất!",
+
+
+"mailing_list_emailtext": "Nhập email của bạn",
+
+
+"show_fanpage_faceook": "1",
+
+
+"facebook_widget_title": "Kết nối với chúng tôi",
+
+
+"fanpage_faceook": "https://www.facebook.com/haravan.official",
+
+
+"social_icons_show": true,
+
+
+"social_icons_colour": "#9e9e9e",
+
+
+"social_icons_hover": "#ffffff",
+
+
+"social_icons_hover_bg": "#ffffff",
+
+
+"social_icons_facebook_link": "/",
+
+
+"social_icons_twitter_link": "/",
+
+
+"social_icons_pinterest_link": "/",
+
+
+"social_icons_google_link": "/",
+
+
+"social_icons_youtube_link": "/",
+
+
+"social_icons_instagram_link": "/",
+
+
+"shop_bg_color": "#00a7f4",
+
+
+"shop_bg2_color": "#ff00ff",
+
+
+"shop_bg3_color": "#e6ff00",
+
+
+"shop_text_color": "#252a2b",
+
+
+"header_bg_color": "#ffffff",
+
+
+"header_text_color": "#ffffff",
+
+
+"header_text_hover_color": "#04b2de",
+
+
+"bg_navbar_color": "#ffffff",
+
+
+"text_navbar_color": "#4d4d4d",
+
+
+"text_hover_navbar_color": "#00a7f4",
+
+
+"shop_border_color": "#ebebeb",
+
+
+"slide_title1_colour": "#ffffff",
+
+
+"slide_title2_colour": "#ffffff",
+
+
+"slide_btn_colour": "#ffffff",
+
+
+"shop_text_dark_color": "#ffffff",
+
+
+"link_text_color": "#000000",
+
+
+"link_text_hover_color": "#65d1e6",
+
+
+"pr_n_color": "#252a2b",
+
+
+"pr_n_color_hover": "#00a7f4",
+
+
+"pr_p_color": "#252a2b",
+
+
+"pr_p_color_hover": "#777a7b",
+
+
+"btn_add_cart": "#ffffff",
+
+
+"btn_text_add_cart": "#333333",
+
+
+"btn_add_cart_hover": "#00a7f4",
+
+
+"btn_text_add_cart_hover": "#ffffff",
+
+
+"pagination_limit": "20",
+
+
+"show_collection_menu": true,
+
+
+"collection_menu_title": "Danh mục ",
+
+
+"collection_menu_link": "left",
+
+
+"show_left_ad": true,
+
+
+"promo_link_left": "",
+
+
+"use_tags_products": true,
+
+
+"share_prod_on_facebook": true,
+
+
+"share_prod_on_googleplus": true,
+
+
+"use_comment_products": true,
+
+
+"productspg_related_products": true,
+
+
+"productspg_featured_quantity": "15",
+
+
+"blog_recent_show": "1",
+
+
+"blog_recent_title": "Danh mục blog",
+
+
+"blog_recent_menu": "left",
+
+
+"news_recent_show": "1",
+
+
+"news_recent_title": "Bài viết mới nhất",
+
+
+"pagination_news_limit": "3",
+
+
+"pagination_blog_limit": "6",
+
+
+"show_google_maps": true,
+
+
+"google_maps_code": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.0940172596597!2d106.77412191474988!3d10.880453492250956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d9a1c7e916e5%3A0x11c06e9bc3055b55!2zQ8O0bmcgVHkgVHLGsOG7nW5nIEFuIC0gQ2h1ecOqbiBT4bqjbiBYdeG6pXQgTcOheSBMw6BtIELDoW5oIE3DrCwgVGhp4bq_dCBC4buLIELhur9wIE5ow6AgSMOgbmc!5e0!3m2!1svi!2s!4v1606885091190!5m2!1svi!2s\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>",
+
+
+"footer_text": "Giải pháp bán hàng toàn diện từ website đến cửa hàng",
+
+
+"footer_company": "Fashion Style",
+
+
+"footer_address": "Nhà máy Sản Xuất:  63/37/1, Đường 8, P.Linh Xuân, Q.Thủ Đức, Tp.HCM",
+
+
+"footer_phone": "+84918.598.987",
+
+
+"footer_email": "an.nt@maylambanhmi.vn",
+
+
+"collection_sort": true,
+
+
+"shop_text2_color": "#ff2e77",
+
+
+"shop_fearture_color": "#fdbc0e",
+
+
+"slide_1_alt": "Sản phẩm nổi bật",
+
+
+"slide_2_alt": "Sản phẩm nổi bật",
+
+
+"slide_3_alt": "Sản phẩm nổi bật",
+
+
+"slide_4_alt": "",
+
+
+"block_home_category1_alt": "Khuyến mãi 1",
+
+
+"block_home_category2_alt": "Khuyến mãi 2",
+
+
+"font_slide_title1": "30",
+
+
+"font_slide_title2": "70",
+
+
+"font_slide_title3": "15",
+
+
+"slide_1_cap_3": "Hàng mới về",
+
+
+"slide_2_cap_3": "Sản phẩm nổi bật",
+
+
+"slide_3_cap_3": "Khuyến mãi tới 50%",
+
+
+"slide_4_cap_3": "",
+
+
+"color_title_1": "Xanh dương",
+
+
+"color_1": "#3232d1",
+
+
+"color_title_2": "Vàng",
+
+
+"color_2": "#d9c211",
+
+
+"color_title_3": "Đen",
+
+
+"color_3": "#170606",
+
+
+"color_title_4": "Nâu",
+
+
+"color_4": "#424141",
+
+
+"color_title_5": "Tím",
+
+
+"color_5": "#810a87",
+
+
+"color_title_6": "",
+
+
+"color_6": "#ffffff",
+
+
+"color_title_7": "",
+
+
+"color_7": "#ffffff",
+
+
+"color_title_8": "",
+
+
+"color_8": "#ffffff",
+
+
+"color_title_9": "",
+
+
+"color_9": "#ffffff",
+
+
+"color_title_10": "",
+
+
+"color_10": "#ffffff",
+
+
+"color_title_11": "",
+
+
+"color_11": "#ffffff",
+
+
+"color_title_12": "",
+
+
+"color_12": "#ffffff",
+
+
+"color_title_13": "",
+
+
+"color_13": "#ffffff",
+
+
+"color_title_14": "",
+
+
+"color_14": "#ffffff",
+
+
+"color_title_15": "",
+
+
+"color_15": "#ffffff",
+
+
+"color_title_16": "",
+
+
+"color_16": "#ffffff",
+
+
+"color_title_17": "",
+
+
+"color_17": "#ffffff",
+
+
+"color_title_18": "",
+
+
+"color_18": "#ffffff",
+
+
+"color_title_19": "",
+
+
+"color_19": "#ffffff",
+
+
+"color_title_20": "",
+
+
+"color_20": "#ffffff",
+
+
+"footer_time": "Thứ 2 đến Thứ 7 từ 8h đến 18h ",
+
+
+"heading_featured": "GREY FASHION <br> Bộ sưu tập xuân hè mới nhất 2018",
+
+
+"heading_featured_url": "/collections/all",
+
+
+"block_home_category1_note": "Bộ sưu tập",
+
+
+"block_home_category2_note": "Bộ sưu tập ",
+
+
+"home_about_show": true,
+
+
+"home_about_title": "Về chúng tôi",
+
+
+"home_about_button": "Tìm hiểu thêm",
+
+
+"home_about_link": "https://congtytruongan.vn/pages/about-us",
+
+
+"home_about_page": "about-us",
+
+
+"social_icons_title": "Mạng xã hội",
+
+
+"social_icons_note": "Vui lòng nhấp vào liên kết để theo dõi",
+
+
+"footer_about_note": "Tổng đài hỗ trợ hoạt động từ T2 đến T6",
+
+
+"show_vendor": true,
+
+
+"show_color": true,
+
+
+"show_size": false,
+
+
+"field_filter_size": "35, 36, 37, 38",
+
+
+"share_prod_on_twitter": true,
+
+
+"share_prod_on_plusgoogle": true,
+
+
+"share_prod_on_pinterest": true,
+
+
+"productspg_related_title": "Sản phẩm liên quan",
+
+
+"mainmenu_link": "main-menu",
+
+
+"childrenmenu__link": "footer",
+
+
+"footer_bg_email": "#141718",
+
+
+"footer_bg_button": "#363d3e",
+
+
+"pr_btn_sale": "#ededed",
+
+
+"btn_bg_shop": "#2d7ddd",
+
+
+"slide_bkg_color": "#fbf3f5",
+
+
+"slide_text_color": "#262627",
+
+
+"slide_button_color": "#262627",
+
+
+"footer_bg_copyright": "#141718",
+
+
+"footer_text_copyright": "#ffffff",
+
+
+"btn_addcarrt_mb": "#ff9e9e",
+
+
+"shop_title_color": "#252a2b",
+
+
+"show_block_home_category3": false,
+
+
+"block_home_category3_link": "/collections/hot-products",
+
+
+"block_home_category3_alt": "Khuyến mãi 3",
+
+
+"use_collection_one_products": true,
+
+
+"heading_collection_one": "Tin tức",
+
+
+"heading_collection_one_url": "/",
+
+
+"collection_one": "frontpage",
+
+
+"use_collection_two_products": true,
+
+
+"heading_collection_two": "ISO 9001-2000",
+
+
+"heading_collection_two_url": "/",
+
+
+"collection_two": "onsale",
+
+
+"show_footer1": true,
+
+
+"footer1_title": "Ưu đãi và thông tin chi tiết",
+
+
+"footer1_information": "gioi-thieu-footer",
+
+
+"social_icon_show": "1",
+
+
+"facebook_link": "/",
+
+
+"instagram_link": "/",
+
+
+"footer_link1_show": true,
+
+
+"footer_link1_title": "Liên kết",
+
+
+"footer_link1_menu": "footer",
+
+
+"show_footer2": true,
+
+
+"footer2_title": "Thông tin liên hệ",
+
+
+"footer-address": "Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11, Tp. Hồ Chí Minh.",
+
+
+"footer-tell": "1900.636.099",
+
+
+"footer-fax": "1900.636.099",
+
+
+"footer-email": "hi@haravan.com",
+
+
+"show_footer3": true,
+
+
+"footer3_title": "Fanpage",
+
+
+"footer_link2_show": "1",
+
+
+"footer_link2_title": "Liên kết",
+
+
+"footer_link2_menu": "main-menu",
+
+
+"footer-address-title": "",
+
+
+"footer-tell-title": "",
+
+
+"footer-fax-title": "",
+
+
+"footer-email-title": "",
+
+
+"show_list_col": true,
+
+
+"link_list_col": "Danh mục sản phẩm",
+
+
+"collection_sidebar": "",
+
+
+"show_collection_filter": true,
+
+
+"filter_title": "Bộ lọc sản phẩm",
+
+
+"use_vendor_filter": true,
+
+
+"vendor_title": "Thương hiệu",
+
+
+"vendor_limit": "1",
+
+
+"use_color_filter": true,
+
+
+"color_title": "Màu sắc",
+
+
+"use_color_filter_1": "1",
+
+
+"color_name_new_1": "Hồng",
+
+
+"color_code_new_1": "#ef5777",
+
+
+"use_color_filter_2": "1",
+
+
+"color_name_new_2": "Vàng",
+
+
+"color_code_new_2": "#ffd32a",
+
+
+"use_color_filter_3": "1",
+
+
+"color_name_new_3": "Xám",
+
+
+"color_code_new_3": "#d2dae2",
+
+
+"use_color_filter_4": "1",
+
+
+"color_name_new_4": "Xanh",
+
+
+"color_code_new_4": "#3c40c6",
+
+
+"use_color_filter_5": "1",
+
+
+"color_name_new_5": "Xanh lá",
+
+
+"color_code_new_5": "#0be881",
+
+
+"use_color_filter_6": "1",
+
+
+"color_name_new_6": "Sen",
+
+
+"color_code_new_6": "#f53b57",
+
+
+"use_color_filter_7": "1",
+
+
+"color_name_new_7": "Xanh biển",
+
+
+"color_code_new_7": "#0fbcf9",
+
+
+"use_color_filter_8": "1",
+
+
+"color_name_new_8": "Đen",
+
+
+"color_code_new_8": "#000000",
+
+
+"use_color_filter_9": true,
+
+
+"color_name_new_9": "Trắng",
+
+
+"color_code_new_9": "#ffffff",
+
+
+"use_color_filter_10": true,
+
+
+"color_name_new_10": "Đỏ",
+
+
+"color_code_new_10": "#ff3f34",
+
+
+"use_color_filter_11": true,
+
+
+"color_name_new_11": "Tím",
+
+
+"color_code_new_11": "#a55eea",
+
+
+"use_color_filter_12": true,
+
+
+"color_name_new_12": "Pure Apple",
+
+
+"color_code_new_12": "#6ab04c",
+
+
+"use_color_filter_13": true,
+
+
+"color_name_new_13": "Blue",
+
+
+"color_code_new_13": "#0c2461",
+
+
+"use_color_filter_14": true,
+
+
+"color_name_new_14": "Kem",
+
+
+"color_code_new_14": "#f1a874",
+
+
+"use_color_filter_15": false,
+
+
+"color_name_new_15": "",
+
+
+"color_code_new_15": "#ffffff",
+
+
+"use_color_filter_16": false,
+
+
+"color_name_new_16": "",
+
+
+"color_code_new_16": "#ffffff",
+
+
+"use_color_filter_17": false,
+
+
+"color_name_new_17": "",
+
+
+"color_code_new_17": "#ffffff",
+
+
+"use_color_filter_18": false,
+
+
+"color_name_new_18": "",
+
+
+"color_code_new_18": "#ffffff",
+
+
+"use_color_filter_19": false,
+
+
+"color_name_new_19": "",
+
+
+"color_code_new_19": "#ffffff",
+
+
+"use_color_filter_20": false,
+
+
+"color_name_new_20": "",
+
+
+"color_code_new_20": "#ffffff",
+
+
+"use_color_filter_21": false,
+
+
+"color_name_new_21": "",
+
+
+"color_code_new_21": "#ffffff",
+
+
+"use_color_filter_22": false,
+
+
+"color_name_new_22": "",
+
+
+"color_code_new_22": "#ffffff",
+
+
+"use_color_filter_23": false,
+
+
+"color_name_new_23": "",
+
+
+"color_code_new_23": "#ffffff",
+
+
+"use_color_filter_24": false,
+
+
+"color_name_new_24": "",
+
+
+"color_code_new_24": "#ffffff",
+
+
+"use_color_filter_25": false,
+
+
+"color_name_new_25": "",
+
+
+"color_code_new_25": "#ffffff",
+
+
+"use_color_filter_26": false,
+
+
+"color_name_new_26": "",
+
+
+"color_code_new_26": "#ffffff",
+
+
+"use_color_filter_27": false,
+
+
+"color_name_new_27": "",
+
+
+"color_code_new_27": "#ffffff",
+
+
+"use_color_filter_28": false,
+
+
+"color_name_new_28": "",
+
+
+"color_code_new_28": "#ffffff",
+
+
+"use_color_filter_29": false,
+
+
+"color_name_new_29": "",
+
+
+"color_code_new_29": "#ffffff",
+
+
+"use_color_filter_30": false,
+
+
+"color_name_new_30": "",
+
+
+"color_code_new_30": "#ffffff",
+
+
+"use_tag_custom_2": true,
+
+
+"tag_title_custom_2": "Kích thước",
+
+
+"enter_tag_2": "S,M,L,XL",
+
+
+"use_price_filter": true,
+
+
+"title_tag_3": "Giá sản phẩm",
+
+
+"price_filter_min": "0",
+
+
+"price_filter_max": "1000000",
+
+
+"price_filter_step": "50000",
+
+
+"use_purpose_filter": "1",
+
+
+"purpose_title": "",
+
+
+"show_collection_image": true,
+
+
+"show_logo_bct": true,
+
+
+"1_price_to": "500000",
+
+
+"2_price_from": "500000",
+
+
+"2_price_to": "1000000",
+
+
+"3_price_from": "1000000",
+
+
+"3_price_to": "1500000",
+
+
+"4_price_from": "2000000",
+
+
+"4_price_to": "5000000",
+
+
+"5_price_from": "5000000",
+
+
+"use_info_header": true,
+
+
+"info_header": "Liên hệ với Trường An ngay để nhận được nhiều ưu đãi !",
+
+
+"block_home_category1_subtitle": "Mô hình kinh doanh",
+
+
+"block_home_category1_button": "Tìm hiểu thêm",
+
+
+"block_home_category2_subtitle": "Mô hình kinh doanh",
+
+
+"block_home_category2_button": "Tư vấn ngay",
+
+
+"block_home_category3_subtitle": "Nội Thất Sang Trọng",
+
+
+"block_home_category3_title": "Phong Cách Hoàng Gia",
+
+
+"block_home_category3_button": "Xem thêm",
+
+
+"display_category": true,
+
+
+"featured_collection1": "hot-products",
+
+
+"featured_collection2": "thoi-trang-nu",
+
+
+"featured_collection3": "hot-products",
+
+
+"featured_collection4": "onsale",
+
+
+"featured_collection5": "",
+
+
+"phone_contact_show": true,
+
+
+"phone_contact_title": "Hỗ trợ / Mua hàng:",
+
+
+"phone_contact_number": "1900 636 099",
+
+
+"title_list_col": "Danh mục sản phẩm",
+
+
+"show_blog_menu": true,
+
+
+"title_blog_menu": "Danh mục",
+
+
+"blog_menu": "main-menu",
+
+
+"show_page_menu": "1",
+
+
+"title_page_menu": "Danh mục trang",
+
+
+"page_menu": "main-menu",
+
+
+"show_page_banner": "1",
+
+
+"page_banner_link": "",
+
+
+"use_category": true,
+
+
+"shop_text_hover_color": "#7bade7",
+
+
+"show_block_home_category": true,
+
+
+"use_product_style": "style_01",
+
+
+"show_logo_payment": false,
+
+
+"logo_payment_height": "45",
+
+
+"logo": "https://file.hstatic.net/200000233651/file/logo_2020_1_f4b1a88719b64c99abd54cbc59a43bbe.png",
+
+
+"favicon": "https://file.hstatic.net/200000233651/file/favicon_b4e05c1e6c0240bf81c39dae0998e075.png",
+
+
+"share_fb_home": "https://file.hstatic.net/200000233651/file/new_year_2021_c10eff8aafbd41f1867a61c27dba7e32.jpg",
+
+
+"slideshow_1": "https://file.hstatic.net/200000233651/file/5594342290997580_8dcddf538c284011afb6c1f34566346b.jpg",
+
+
+"slideshow_2": "https://file.hstatic.net/200000233651/file/1170503666723710_d676fbc2853e4d52931aa01d6305b149.jpg",
+
+
+"slideshow_3": "https://file.hstatic.net/200000233651/file/bn_1112_14_8f28cb5686ae49bf8ce9eeaf6b66f8ae.png",
+
+
+"slideshow_4": "https://file.hstatic.net/200000233651/file/1.ntm_la_gi-1067x800_13c5c51c8a484982befb6ffd9f1409d0.jpg",
+
+
+"block_home_category1": "https://file.hstatic.net/200000233651/file/750x800_0003_daychuyen5_92ae179c43764e899316bc9f26d2f717.png",
+
+
+"block_home_category2": "https://file.hstatic.net/200000233651/file/750x800_0001_daychuyen4_24fe0c819fe04fcfb3092ec69c15c45a.png",
+
+
+"block_home_category3": "https://file.hstatic.net/1000309459/file/block_home_category3_4636fdd8f33142038cb78a693265ff00.jpg",
+
+
+"home_about_image": "https://file.hstatic.net/1000309459/file/banner_home_about_b380313ba9cc4d7fbd5d78b06442a8a5.jpg",
+
+
+"logo-bct": "https://file.hara.vn/1000113711/file/logo-bct_580132795da142c79ffb89b595168de6.png",
+
+
+"collection_banner": "https://file.hstatic.net/1000309459/file/collection_banner_ca4446092b2a4d07bfb258037fdb78aa.jpg",
+
+
+"page_banner": "https://file.hstatic.net/200000233651/file/860x940_0000_profile13_12923285f8044935bcc1c2f4a279c414.png",
+
+
+"slideshow_1.jpg": "https://file.hstatic.net/1000397797/file/slideshow_6-min_0fce35aa7c8b475b9d3c73ea17db504c.jpg",
+
+
+"logo_bct": "https://file.hstatic.net/1000300454/file/logo_bct_019590229b4c4dfda690236b67f7aff4.png",
+
+
+"use_chatbot": true,
+
+
+"code_messenger_mb": "108520260558644",
+
+
+"addthis_iconList_show": true,
+
+
+"addthis_icon1_show": true,
+
+
+"addthis_icon1_color1": "#4a90e2",
+
+
+"addthis_icon1_color2": "#81b9fa",
+
+
+"addthis_icon1_tootlip": "Gọi ngay cho chúng tôi",
+
+
+"addthis_icon1_action": "",
+
+
+"addthis_icon2_show": true,
+
+
+"addthis_icon2_color1": "#3985f7",
+
+
+"addthis_icon2_color2": "#1272e8",
+
+
+"addthis_icon2_tootlip": "Chat với chúng tôi qua Zalo",
+
+
+"addthis_icon2_action": "//zalo.me/+84918.598.987",
+
+
+"addthis_icon3_show": true,
+
+
+"addthis_icon3_color1": "#70f3ff",
+
+
+"addthis_icon3_color2": "#00dcf0",
+
+
+"addthis_icon3_tootlip": "Đăng kí thông tin và để lại lời nhắn",
+
+
+"addthis_icon3_title": "Để lại lời nhắn cho chúng tôi",
+
+
+"addthis_icon3_title2": "Đăng kí thông tin thành công",
+
+
+"addthis_icon3_content": "Cảm ơn bạn đã để lại thông tin <br> Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất\t",
+
+
+"addthis_icon4_show": true,
+
+
+"addthis_icon4_color1": "#84b6f1",
+
+
+"addthis_icon4_color2": "#2e89f3",
+
+
+"addthis_icon4_tootlip": "Xem địa chỉ doanh nghiệp",
+
+
+"addthis_icon4_action": "/pages/lien-he",
+
+
+"link_logo_bct": "/",
+
+
+"promotion_hrvapp_use": false,
+
+
+"promotion_hrvapp": "appbuyxgety",
+
+
+"appbuyxgety_icon": "https://file.hstatic.net/1000308580/file/icon-gifbox_21127e78739a40a28f058e5e123d41b1.png",
+
+
+"popup_contact_show": false,
+
+
+"popup_contact_select": "popupForm",
+
+
+"popup_contact_banner": "https://file.hstatic.net/200000233651/file/650x400px1_0000_form_dk_58efc60a0d864524a8f182925ae27289.png",
+
+
+"popup_contact_alt": "Ưu đãi của chúng tôi",
+
+
+"popup_contact_link": "/collections/all",
+
+
+"popup_contact_bkg": "https://file.hstatic.net/200000233651/file/650x400px1_0000_form_dk_58efc60a0d864524a8f182925ae27289.png",
+
+
+"popup_contact_title": "Đăng kí nhận tin",
+
+
+"popup_contact_content": "Chúng tôi sẽ cập nhật các chương trình khuyến mãi đến bạn.",
+
+
+"popup_contact_description_1": "Giảm giá sản phẩm",
+
+
+"popup_contact_description_2": "Sản phẩm mới",
+
+
+"popup_contact_description_3": "Sản phẩm bán chạy",
+
+
+"hottline_mb": "+84918.598.987",
+
+
+"email_mb": "an.nt@maylambanhmi.vn",
+
+
+"policy_cart_title": "Chính sách mua hàng",
+
+
+"policy_cart_1": "Sản phẩm được đổi 1 lần duy nhất, không hỗ trợ trả.",
+
+
+"policy_cart_2": "Sản phẩm còn đủ tem mác, chưa qua sử dụng.",
+
+
+"policy_cart_3": "Sản phẩm nguyên giá được đổi trong 30 ngày trên toàn hệ thống",
+
+
+"policy_cart_4": "Sản phẩm sale chỉ hỗ trợ đổi size (nếu cửa hàng còn) trong 7 ngày trên toàn hệ thống.",
+
+
+"featured_collection1_banner": "https://file.hstatic.net/1000300454/file/banne_becdbfb37af140b78bea960cf23b8340.jpg",
+
+
+"featured_collection2_banner": "",
+
+
+"featured_collection3_banner": "",
+
+
+"featured_collection4_banner": "",
+
+
+"featured_collection5_banner": "",
+
+
+"collection_one_limit": "6",
+
+
+"collection_two_limit": "10",
+
+
+"home_category_1_show": true,
+
+
+"home_category_1_banner": "https://file.hstatic.net/1000309459/file/bannerh01_5ba6f27aca5e493483ca4f297271b602.jpg",
+
+
+"home_category_1_alt": "banner 1",
+
+
+"home_category_1_link": "/collections/all",
+
+
+"home_category_2_show": true,
+
+
+"home_category_2_banner": "https://file.hstatic.net/1000309459/file/bannerh02_c2138c3002ba4e0896ae9aa3b981bd92.jpg",
+
+
+"home_category_2_alt": "Sofa hiện đại",
+
+
+"home_category_2_link": "/collections/all",
+
+
+"home_category_3_show": true,
+
+
+"home_category_3_banner": "https://file.hstatic.net/1000309459/file/bannerh03_26b919c821c14ca482dc0a67515f234a.jpg",
+
+
+"home_category_3_alt": "Phụ kiện trang trí",
+
+
+"home_category_3_link": "/collections/all",
+
+
+"home_category_4_show": true,
+
+
+"home_category_4_banner": "https://file.hstatic.net/1000309459/file/bannerh04_83bc60fdfacc4c21bcc4b86f9184feac.jpg",
+
+
+"home_category_4_alt": "Sản phẩm mới",
+
+
+"home_category_4_link": "/collections/all",
+
+
+"home_category_5_show": true,
+
+
+"home_category_5_banner": "https://file.hstatic.net/1000309459/file/bannerh05_4f1c340a8ff94fbbbc1464a0ac263960.jpg",
+
+
+"home_category_5_alt": "Trang trí phòng tắm",
+
+
+"home_category_5_link": "/collections/all",
+
+
+"header_home_selected": "header_style1",
+
+
+"header_01_topbar_bkg": "#4a90e2",
+
+
+"header_01_topbar_text": "#ffffff",
+
+
+"header_01_color_bkg": "#ffffff",
+
+
+"header_01_color_text": "#252a2b",
+
+
+"header_02_topbar_bkg": "#9c4533",
+
+
+"header_02_topbar_text": "#ffffff",
+
+
+"header_02_color_bkg": "#ffffff",
+
+
+"header_02_color_text": "#252a2b",
+
+
+"header_03_topbar_bkg": "#9c4533",
+
+
+"header_03_topbar_text": "#ffffff",
+
+
+"header_03_color_bkg": "#ffffff",
+
+
+"header_03_color_text": "#252a2b",
+
+
+"header_03_color_hover": "#ffffff",
+
+
+"header_01_color_light": "#3c64e8",
+
+
+"header_02_color_hover": "#9c4533",
+
+
+"home_category_1_title": "Phòng khách tối giản",
+
+
+"home_category_2_title": "Sofa hiện đại",
+
+
+"home_category_3_title": "Phụ kiện trang trí",
+
+
+"home_category_4_title": "Sản phẩm mới",
+
+
+"home_category_5_title": "Trang trí phòng tắm",
+
+
+"popup_contact_time": "1",
+
+
+"banner_title_color": "#ffffff",
+
+
+"banner_btn_color": "#ffffff",
+
+
+"banner_btntext_color": "#252525",
+
+
+"mainmenu_linkmobilesanpham": "danh-muc-san-pham-dac-biet",
+
+
+"mainmenu_linkmobile": "main-menu",
+
+
+"info_headerphone": "+84918.598.987",
+
+
+"info_headerphonecanhlogo": "Địa điểm",
+
+
+"info_headerphonecanhlogolink": "https://congtytruongan.vn/pages/lien-he",
+
+
+"showsocial1": true,
+
+
+"social_linksocial_1": "Liên kết",
+
+
+"anhicon1.png": "",
+
+
+"showsocial2": true,
+
+
+"social_linksocial_2": "Liên kết",
+
+
+"anhicon2.png": "",
+
+
+"showsocial3": true,
+
+
+"social_linksocial_3": "Liên kết",
+
+
+"anhicon3.png": "",
+
+
+"showsocial4": false,
+
+
+"social_linksocial_4": "Liên kết",
+
+
+"anhicon4.png": "",
+
+
+"showsocial5": false,
+
+
+"social_linksocial_5": "Liên kết",
+
+
+"anhicon5.png": "",
+
+
+"showsocial6": false,
+
+
+"social_linksocial_6": "Liên kết",
+
+
+"anhicon6.png": "",
+
+
+"showsocial7": false,
+
+
+"social_linksocial_7": "Liên kết",
+
+
+"anhicon7.png": "",
+
+
+"showsocial8": false,
+
+
+"social_linksocial_8": "Liên kết",
+
+
+"anhicon8.png": "",
+
+
+"showsocial9": false,
+
+
+"social_linksocial_9": "Liên kết",
+
+
+"anhicon9.png": "",
+
+
+"showsocial10": false,
+
+
+"social_linksocial_10": "Liên kết",
+
+
+"anhicon10.png": "",
+
+
+"tieudebanner": "<br>  CÔNG TY CỔ PHẦN MÁY CÔNG NGHIỆP TRƯỜNG AN",
+
+
+"noidungbanner": "Sản xuất và cung cấp các máy móc - thiết bị dụng cụ ngành Bánh Mì – Bánh Ngọt – Bánh Kem.\n- Hỗ trợ tư vấn, thiết kế mở cửa tiệm Bánh Mì - Bánh Ngọt.\n- Kết hợp – Hợp tác mở chuỗi cửa hàng phát triển thương hiệu Bánh Mì Việt Nam",
+
+
+"tieudenut": "Tìm hiểu thêm",
+
+
+"linkcuanut": "https://congtytruongan.vn/pages/about-us",
+
+
+"showcat1": true,
+
+
+"titlecat1": "LÒ XOAY<br> Với công nghệ vượt trội  & cải tiến ",
+
+
+"titlecatnoidung1": "Your own combination of two Roofing Profiles. Saving floorspace is the best trait of this Double Layer Machine type.",
+
+
+"titcatnut1": "Xem thêm",
+
+
+"titcatnutlink1": "",
+
+
+"titcatnutlinkrightban1": "https://file.hstatic.net/200000233651/file/banner_800x535_bd542ec8539b49a9aa7701a7a6d374e2.png",
+
+
+"titcatnutlinkright1": "<p>Thành lò Inox cao cấp cách nhiệt, khoang lò chống dính dễ vệ sinh, cửa lò 2 lớp kính cường lực cách nhiệt, tay cầm có khóa chốt cách nhiệt.\n<br>Lò nướng bánh mì xoay có cài đặt nhiệt độ (0 - 300 độ C), hẹn giờ, chuông báo tự động, hẹn giờ phun hơi nước tự động. Có đèn chiếu sáng trong lò, giúp người sử dụng dễ theo dõi quá trình nướng thực phẩm.</p>",
+
+
+"showcat2": true,
+
+
+"titlecat2": "Double Layer<br> Roll Forming Machine 2",
+
+
+"titlecatnoidung2": "Your own combination of two Roofing Profiles. Saving floorspace is the best trait of this Double Layer Machine type.",
+
+
+"titcatnut2": "Xem thêm",
+
+
+"titcatnutlink2": "",
+
+
+"titcatnutlinkrightban2": "https://www.ameco.vn/wp-content/uploads/2018/02/Rotary-Encoder_Corrugated-Roofing-and-6rib-Roofing_ameco.vn_Double-Layer-Roll-Forming-Machine.jpg",
+
+
+"titcatnutlinkright2": "Common Double Layer Roll Forming Machines:<br>Ruby Tile Roofing &amp; Plafond Roofing, <br>11 Rib Roofing &amp; 13 Rib Plafond Roofing,<br> Corrugated Roofing &amp; 6 Rib Roofing",
+
+
+"showcat3": false,
+
+
+"titlecat3": "",
+
+
+"titlecatnoidung3": "",
+
+
+"titcatnut3": "",
+
+
+"titcatnutlink3": "",
+
+
+"titcatnutlinkrightban3": "",
+
+
+"titcatnutlinkright3": "",
+
+
+"showcat4": false,
+
+
+"titlecat4": "",
+
+
+"titlecatnoidung4": "",
+
+
+"titcatnut4": "",
+
+
+"titcatnutlink4": "",
+
+
+"titcatnutlinkrightban4": "",
+
+
+"titcatnutlinkright4": "",
+
+
+"showcat5": false,
+
+
+"titlecat5": "",
+
+
+"titlecatnoidung5": "",
+
+
+"titcatnut5": "",
+
+
+"titcatnutlink5": "",
+
+
+"titcatnutlinkrightban5": "",
+
+
+"titcatnutlinkright5": "",
+
+
+"bloghome": "news",
+
+
+"home_about_buttonnoidung": "<p>Truong An </p>\n\t\t\t\t\t<p>Tiền thân Công Ty Cổ Phần Máy Công Nghiệp Trường An là một cửa hàng bánh mì truyền thống gia đình từ năm 1993; Công ty hoạt động chính thức vào năm 2010. Trường An là thương hiệu đột phá với công nghệ kỹ thuật cải tiến - Người tiên phong cho tư duy làm bánh hiện đại ở Việt Nam.</p>",
+
+
+"abouttab1show": true,
+
+
+"tabhome_about_title": "Giới thiệu",
+
+
+"aboutanh1_1": "https://file.hstatic.net/200000233651/file/profile2_688278c6f2ad4c038d5f32db1164509c.jpg",
+
+
+"aboutanhlink1_1": "/pages/about-us",
+
+
+"aboutanh1_2": "https://file.hstatic.net/200000233651/file/profile3_fdc6a970d08e475fb1ad377d592f6e34.jpg",
+
+
+"aboutanhlink1_2": "/pages/about-us",
+
+
+"aboutanh1_3": "https://file.hstatic.net/200000233651/file/profile4_8e2686db47dc4345a301599835473604.jpg",
+
+
+"aboutanhlink1_3": "/pages/about-us",
+
+
+"aboutanh1_4": "https://file.hstatic.net/200000233651/file/profile5_66ab02752c8c4a9a99168bc9674a55ff.jpg",
+
+
+"aboutanhlink1_4": "",
+
+
+"aboutanh1_5": "https://file.hstatic.net/200000233651/file/profile6_35920d5274524903925df7ebf640f35d.jpg",
+
+
+"aboutanhlink1_5": "",
+
+
+"aboutanh1_6": "https://file.hstatic.net/200000233651/file/profile7_249a2bad26014509a7363e015705776b.jpg",
+
+
+"aboutanhlink1_6": "",
+
+
+"abouttab2show": true,
+
+
+"tabhome_about_title2": "Năng lực",
+
+
+"aboutanh2_1": "https://file.hstatic.net/200000233651/file/profile8_d347c840ee334abe8c814580e5ce3217.jpg",
+
+
+"aboutanhlink2_1": "",
+
+
+"aboutanh2_2": "https://file.hstatic.net/200000233651/file/profile9_62c40f9db06e45389335f5c3de6515de.jpg",
+
+
+"aboutanhlink2_2": "",
+
+
+"aboutanh2_3": "https://file.hstatic.net/200000233651/file/profile10_05e67f580d8b4be8a97b08ff5fd60fe2.jpg",
+
+
+"aboutanhlink2_3": "",
+
+
+"aboutanh2_4": "https://file.hstatic.net/200000233651/file/profile11_998baff3d49c44f19742757aa719096a.jpg",
+
+
+"aboutanhlink2_4": "",
+
+
+"aboutanh2_5": "https://file.hstatic.net/200000233651/file/profile17_67e0dc79c5094a2e921328451feb359b.jpg",
+
+
+"aboutanhlink2_5": "",
+
+
+"aboutanh2_6": "https://file.hstatic.net/200000233651/file/profile19_170700a977664ab2ae45f1b0000b02b9.jpg",
+
+
+"aboutanhlink2_6": "",
+
+
+"hienthiiso": true,
+
+
+"noidungiso": "In early 2009, our company was assessed and recognized in meeting the stringent provisions of ISO 9001:2000 International Standards by Global GROUP (UKAS 039), under Certificate of Registration Number 73Q10075.",
+
+
+"noidungisonut": "Xem thêm",
+
+
+"noidungisonutlink": "https://congtytruongan.vn/pages/about-us",
+
+
+"noidungisonutlinkgb": "https://file.hstatic.net/200000233651/file/bn_1112_14_8f28cb5686ae49bf8ce9eeaf6b66f8ae.png",
+
+
+"hienthipolicy": true,
+
+
+"thongtin1show": true,
+
+
+"iconpolicy1": "https://file.hstatic.net/200000233651/file/484576_78d33f34fde54475bd327b918263dfdd.png",
+
+
+"iconpolicy1h": "https://file.hstatic.net/200000233651/file/lienhe_hover_white_20c7b283c5654db48d7fba9798de667a.png",
+
+
+"noidungpolici1": "LIÊN HỆ",
+
+
+"linkpolicy1": "https://congtytruongan.vn/pages/lien-he",
+
+
+"thongtin2show": true,
+
+
+"iconpolicy2": "https://file.hstatic.net/200000233651/file/yeu_cau_bao-gia_icon_029444dd70eb404e929d40ed4ec301f5.png",
+
+
+"iconpolicy2h": "https://file.hstatic.net/200000233651/file/yeu_cau_bao-gia_hover_white_36ae769161454ab3b6f1669e84376503.png",
+
+
+"noidungpolici2": "YÊU CẦU BÁO GIÁ",
+
+
+"linkpolicy2": "https://congtytruongan.vn/pages/lien-he",
+
+
+"thongtin3show": true,
+
+
+"iconpolicy3": "https://file.hstatic.net/200000233651/file/dichvu_hotro_black_db2b5798b60646f6be3aa475c4c90d7b.png",
+
+
+"iconpolicy3h": "https://file.hstatic.net/200000233651/file/dichvu_hotro_hover_white_e25385d354454d529a7b9379e4948dd0.png",
+
+
+"noidungpolici3": "DỊCH VỤ  & HỖ TRỢ",
+
+
+"linkpolicy3": "",
+
+
+"thongtin4show": true,
+
+
+"iconpolicy4": "https://file.hstatic.net/200000233651/file/61474_cd0d693e107b46c0a91c074ff89737a8.png",
+
+
+"iconpolicy4h": "https://file.hstatic.net/200000233651/file/61474_6652eb74aa5642218e39b44676b2d51c.png",
+
+
+"noidungpolici4": "TUYỂN DỤNG",
+
+
+"linkpolicy4": "",
+
+
+"footer_link1_title2": "Sơ đồ website",
+
+
+"footer_link1_menu2": "main-menu",
+
+
+"footer_link1_title3": "Sản phẩm",
+
+
+"footer_link1_menu3": "danh-muc-san-pham-dac-biet",
+
+
+"footer_link1_title4": "Chính sách bảo mật",
+
+
+"footer_link1_menu4": "footer",
+
+
+"footer_link1_title5": "Khác",
+
+
+"footer_link1_menu5": "khac",
+
+
+"footer_link1_title5cc": " © 2020 - Bản quyền thuộc về CÔNG TY CỔ PHẦN MÁY CÔNG NGHIỆP TRƯỜNG AN  ",
+
+
+"danhmdacbiet": true,
+
+
+"tieudecolldb": "Danh mục sản phẩm",
+
+
+"noidungcoldb": "",
+
+
+"tieudennut": "Xem tất cả sản phẩm",
+
+
+"tieudecolldblink": "https://congtytruongan.vn/collections/sptruongan",
+
+
+"tieudecolldblinkmenu": "danh-muc-san-pham-dac-biet",
+
+
+"pagination_limitx": "20",
+
+
+"imageabout": "https://file.hstatic.net/200000233651/file/banner_gt_bed4f479921d45f596b473fc64f9e634.png",
+
+
+"noidungabout1": "<p>Truong An <br>\nNgười tiên phong  trong lĩnh vực sản xuât các thiết bị làm bánh công nghiệp </p>",
+
+
+"imgss2": "https://file.hstatic.net/200000233651/file/banner_g62_a00b10401feb4294bfc8d4ee35c507db.png",
+
+
+"abtitle1": "MỤC TIÊU",
+
+
+"abtit2": "Mang giá trị của con người Việt Nam vươn tầm thế giới",
+
+
+"imgss2box1": "https://file.hstatic.net/200000233651/file/about_us_purpose_565783dc0ac94e1fb46747dbe045a75d.png",
+
+
+"abtitle1box1": "Con người\n||\nLuôn quan tâm đến lợi ích của khách hàng\n",
+
+
+"imgss2box2": "https://file.hstatic.net/200000233651/file/about_us_purpose_565783dc0ac94e1fb46747dbe045a75d.png",
+
+
+"abtitle1box2": "Chất lượng\n||\nChất lượng là ưu tiên hàng đầu",
+
+
+"imgss2box3": "https://file.hstatic.net/200000233651/file/about_us_purpose_565783dc0ac94e1fb46747dbe045a75d.png",
+
+
+"abtitle1box3": "Tin cậy\n||\nSáng tạo, trong sạch, trách nhiệm",
+
+
+"abtitle1box3noidung": "",
+
+
+"imgss3show": true,
+
+
+"abtitles3": "Công ty Trường An",
+
+
+"abtits3": "Chất lượng về sản phẩm là thế mạnh của Trường An, với kinh nghiệm 15 năm trong ngành sản xuất",
+
+
+"box3icon1": "https://file.hstatic.net/200000233651/file/about_us_core_value_d3b99db3bd4f4fc2a74bc80c08087053.png",
+
+
+"box3icontitle1": "Thấu hiểu",
+
+
+"box3iconcontent1": "",
+
+
+"box3icon2": "https://file.hstatic.net/200000233651/file/about_us_purpose_565783dc0ac94e1fb46747dbe045a75d.png",
+
+
+"box3icontitle2": "Tận tâm ",
+
+
+"box3iconcontent2": "",
+
+
+"box3icon3": "https://file.hstatic.net/200000233651/file/about_us_mission_a42fc76dc7c54c449fe2cf08a63650a1.png",
+
+
+"box3icontitle3": "Trách nhiệm",
+
+
+"box3iconcontent3": "",
+
+
+"box3icon4": "https://file.hstatic.net/200000233651/file/about_us_vision_ed26d1243efb478688b41bec0ccc18b2.png",
+
+
+"box3icontitle4": "Tôn trọng",
+
+
+"box3iconcontent4": "",
+
+
+"imgss4show": true,
+
+
+"abtitles4": "NHÂN LỰC",
+
+
+"abtits4": "Bằng lí tưởng tiên phong cùng đội ngũ sản xuất chuyên nghiệp, Trường An phấn đấu trở thành một thương hiệu uy tín - chất lượng trong nước và thế giới về công nghệ lắp ráp sản xuất thiết bị máy móc làm bánh mì. Trở thành nhà cung cấp hàng đầu các máy móc, thiết bị, dụng cụ trong lĩnh vực Bánh Mì – Bánh Ngọt cùng với dịch vụ chăm sóc khách hàng tốt nhất. Trong tương lai Trường An sẽ là lựa chọn hàng đầu cho các nhà đầu tư phát triển thương hiệu bánh mì của mình cả trên thị trường Việt Nam và quốc tế",
+
+
+"abtits4page": "about-us-ss4",
+
+
+"abtits4link": "",
+
+
+"imgss5show": true,
+
+
+"abtitles5": "DẤU ẤN TOÀN CẦU",
+
+
+"abtits5": "Trường An hợp tác với đã hợp tác với hơn 500 khách hàng từ 20 nước trên thế giới",
+
+
+"abtits5link": "https://file.hstatic.net/200000233651/file/map_desktop_2019_13168ea749ec40a7bfa69735cdc3e051.png",
+
+
+"abtits5linkmobile": "https://file.hstatic.net/200000233651/file/map_desktop_2019_13168ea749ec40a7bfa69735cdc3e051.png",
+
+
+"imgss6show": true,
+
+
+"abtitles6": "Quá trình hình thành phát triển",
+
+
+"abtits6": "Luôn cải tiến, nâng cao khả năng chế tạo từ năm 2004",
+
+
+"imgss6shownam1": true,
+
+
+"abtitles6titleanh1": "",
+
+
+"abtitles6title1": "1993",
+
+
+"abtits6noidung1": "Tiền thân là một cơ sở\nsản xuất chế tạo máy\nthành lạp vào năm\n1993 tại tỉnh\nBình Dương , Thành phố Hồ Chí Minh, Vietnam",
+
+
+"imgss6shownam2": true,
+
+
+"abtitles6titleanh2": "",
+
+
+"abtitles6title2": "2006",
+
+
+"abtits6noidung2": "",
+
+
+"imgss6shownam3": true,
+
+
+"abtitles6titleanh3": "",
+
+
+"abtitles6title3": "2010",
+
+
+"abtits6noidung3": "",
+
+
+"imgss6shownam4": true,
+
+
+"abtitles6titleanh4": "https://file.hstatic.net/200000233651/file/banner_gt4._be96a4f85c4f43d5864fb3469e6a8d2a.png",
+
+
+"abtitles6title4": "2015",
+
+
+"abtits6noidung4": "",
+
+
+"imgss6shownam5": true,
+
+
+"abtitles6titleanh5": "",
+
+
+"abtitles6title5": "2016",
+
+
+"abtits6noidung5": "Mở rộng thị trường hợp tác và kinh doanh ra nhiều quốc gia",
+
+
+"imgss6shownam6": true,
+
+
+"abtitles6titleanh6": "",
+
+
+"abtitles6title6": "2019",
+
+
+"abtits6noidung6": "",
+
+
+"imgss6shownam7": true,
+
+
+"abtitles6titleanh7": "",
+
+
+"abtitles6title7": "2020",
+
+
+"abtits6noidung7": "",
+
+
+"imgss6shownam8": false,
+
+
+"abtitles6titleanh8": "",
+
+
+"abtitles6title8": "",
+
+
+"abtits6noidung8": "",
+
+
+"imgss6shownam9": false,
+
+
+"abtitles6titleanh9": "",
+
+
+"abtitles6title9": "",
+
+
+"abtits6noidung9": "",
+
+
+"imgss6shownam10": false,
+
+
+"abtitles6titleanh10": "",
+
+
+"abtitles6title10": "",
+
+
+"abtits6noidung10": "",
+
+
+"imgss6shownam11": false,
+
+
+"abtitles6titleanh11": "",
+
+
+"abtitles6title11": "",
+
+
+"abtits6noidung11": "",
+
+
+"imgss6shownam12": false,
+
+
+"abtitles6titleanh12": "",
+
+
+"abtitles6title12": "",
+
+
+"abtits6noidung12": "",
+
+
+"mymota1tnut": "Liên hệ",
+
+
+"mymotatab1phone": "090 277 4646 -  0834.739.397",
+
+
+"mymota1": "Danh mục sản phẩm",
+
+
+"mymotatab1": "Sản phẩm",
+
+
+"mymotatab2": "Sản phẩm",
+
+
+"mymotatab3": "Sản phẩm",
+
+
+"mymotatab4": "Sản phẩm",
+
+
+"en_use_logo": true,
+
+
+"en_logo": "https://file.hstatic.net/200000233651/file/logo_2020_1_f4b1a88719b64c99abd54cbc59a43bbe.png",
+
+
+"en_favicon": "https://file.hstatic.net/200000233651/file/favicon_b4e05c1e6c0240bf81c39dae0998e075.png",
+
+
+"en_mainmenu_link": "main-menu",
+
+
+"en_mainmenu_linkmobilesanpham": "danh-muc-san-pham-dac-biet",
+
+
+"en_mainmenu_linkmobile": "main-menu",
+
+
+"en_hottline_mb": "+84918.598.987",
+
+
+"en_email_mb": "an.nt@maylambanhmi.vn",
+
+
+"en_share_fb_home": "",
+
+
+"en_use_chatbot": false,
+
+
+"en_code_messenger_mb": "",
+
+
+"en_addthis_iconList_show": false,
+
+
+"en_addthis_icon1_show": false,
+
+
+"en_addthis_icon1_color1": "#FECF72",
+
+
+"en_addthis_icon1_color2": "#EF9F00",
+
+
+"en_addthis_icon1_tootlip": "",
+
+
+"en_addthis_icon1_action": "",
+
+
+"en_addthis_icon2_show": false,
+
+
+"en_addthis_icon2_color1": "#FECF72",
+
+
+"en_addthis_icon2_color2": "#EF9F00",
+
+
+"en_addthis_icon2_tootlip": "",
+
+
+"en_addthis_icon2_action": "",
+
+
+"en_addthis_icon3_show": false,
+
+
+"en_addthis_icon3_color1": "#FECF72",
+
+
+"en_addthis_icon3_color2": "#EF9F00",
+
+
+"en_addthis_icon3_tootlip": "",
+
+
+"en_addthis_icon3_title": "",
+
+
+"en_addthis_icon3_title2": "",
+
+
+"en_addthis_icon3_content": "",
+
+
+"en_addthis_icon4_show": false,
+
+
+"en_addthis_icon4_color1": "#FECF72",
+
+
+"en_addthis_icon4_color2": "#EF9F00",
+
+
+"en_addthis_icon4_tootlip": "",
+
+
+"en_addthis_icon4_action": "",
+
+
+"en_popup_contact_show": false,
+
+
+"en_popup_contact_select": "popupBanner",
+
+
+"en_popup_contact_time": "",
+
+
+"en_popup_contact_banner": "",
+
+
+"en_popup_contact_alt": "Các ưu đãi của chúng tôi",
+
+
+"en_popup_contact_link": "/",
+
+
+"en_popup_contact_bkg": "",
+
+
+"en_popup_contact_title": "Hãy đến với chúng tôi",
+
+
+"en_popup_contact_content": "Chúng tôi sẽ cập nhật các chương trình khuyến mãi đến bạn.",
+
+
+"en_popup_contact_description_1": "Giảm giá sản phẩm",
+
+
+"en_popup_contact_description_2": "Sản phẩm mới",
+
+
+"en_popup_contact_description_3": "Sản phẩm bán chạy",
+
+
+"en_use_info_header": false,
+
+
+"en_info_headerphone": "Freeship",
+
+
+"en_info_headerphonecanhlogo": "Freeship",
+
+
+"en_info_headerphonecanhlogolink": "Freeship",
+
+
+"en_showsocial1": false,
+
+
+"en_social_linksocial_1": "Liên kết",
+
+
+"en_anhicon1.png": "",
+
+
+"en_showsocial2": false,
+
+
+"en_social_linksocial_2": "Liên kết",
+
+
+"en_anhicon2.png": "",
+
+
+"en_showsocial3": false,
+
+
+"en_social_linksocial_3": "Liên kết",
+
+
+"en_anhicon3.png": "",
+
+
+"en_showsocial4": false,
+
+
+"en_social_linksocial_4": "Liên kết",
+
+
+"en_anhicon4.png": "",
+
+
+"en_showsocial5": false,
+
+
+"en_social_linksocial_5": "Liên kết",
+
+
+"en_anhicon5.png": "",
+
+
+"en_showsocial6": false,
+
+
+"en_social_linksocial_6": "Liên kết",
+
+
+"en_anhicon6.png": "",
+
+
+"en_showsocial7": false,
+
+
+"en_social_linksocial_7": "Liên kết",
+
+
+"en_anhicon7.png": "",
+
+
+"en_showsocial8": false,
+
+
+"en_social_linksocial_8": "Liên kết",
+
+
+"en_anhicon8.png": "",
+
+
+"en_showsocial9": false,
+
+
+"en_social_linksocial_9": "Liên kết",
+
+
+"en_anhicon9.png": "",
+
+
+"en_showsocial10": false,
+
+
+"en_social_linksocial_10": "Liên kết",
+
+
+"en_anhicon10.png": "",
+
+
+"en_slideshow_1": "https://file.hstatic.net/200000233651/file/112112112_9a2090f3731d48bdbd094cfc1c4a9c79.jpg",
+
+
+"en_tieudebanner": "",
+
+
+"en_noidungbanner": "",
+
+
+"en_tieudenut": "",
+
+
+"en_linkcuanut": "/collections/all",
+
+
+"en_use_category": true,
+
+
+"en_showcat1": false,
+
+
+"en_titlecat1": "",
+
+
+"en_titlecatnoidung1": "",
+
+
+"en_titcatnut1": "",
+
+
+"en_titcatnutlink1": "",
+
+
+"en_titcatnutlinkrightban1": "",
+
+
+"en_titcatnutlinkright1": "",
+
+
+"en_showcat2": false,
+
+
+"en_titlecat2": "",
+
+
+"en_titlecatnoidung2": "",
+
+
+"en_titcatnut2": "",
+
+
+"en_titcatnutlink2": "",
+
+
+"en_titcatnutlinkrightban2": "",
+
+
+"en_titcatnutlinkright2": "",
+
+
+"en_showcat3": false,
+
+
+"en_titlecat3": "",
+
+
+"en_titlecatnoidung3": "",
+
+
+"en_titcatnut3": "",
+
+
+"en_titcatnutlink3": "",
+
+
+"en_titcatnutlinkrightban3": "",
+
+
+"en_titcatnutlinkright3": "",
+
+
+"en_showcat4": false,
+
+
+"en_titlecat4": "",
+
+
+"en_titlecatnoidung4": "",
+
+
+"en_titcatnut4": "",
+
+
+"en_titcatnutlink4": "",
+
+
+"en_titcatnutlinkrightban4": "",
+
+
+"en_titcatnutlinkright4": "",
+
+
+"en_showcat5": false,
+
+
+"en_titlecat5": "",
+
+
+"en_titlecatnoidung5": "",
+
+
+"en_titcatnut5": "",
+
+
+"en_titcatnutlink5": "",
+
+
+"en_titcatnutlinkrightban5": "",
+
+
+"en_titcatnutlinkright5": "",
+
+
+"en_use_collection_one_products": false,
+
+
+"en_heading_collection_one": "",
+
+
+"en_bloghome": "",
+
+
+"en_block_home_category1": "",
+
+
+"en_block_home_category1_subtitle": "",
+
+
+"en_block_home_category1_title": "",
+
+
+"en_block_home_category1_button": "",
+
+
+"en_block_home_category1_link": "",
+
+
+"en_block_home_category2": "",
+
+
+"en_block_home_category2_subtitle": "",
+
+
+"en_block_home_category2_title": "",
+
+
+"en_block_home_category2_button": "",
+
+
+"en_block_home_category2_link": "",
+
+
+"en_home_about_show": false,
+
+
+"en_home_about_title": "",
+
+
+"en_home_about_buttonnoidung": "",
+
+
+"en_home_about_button": "",
+
+
+"en_home_about_link": "",
+
+
+"en_abouttab1show": false,
+
+
+"en_tabhome_about_title": "",
+
+
+"en_aboutanh1_1": "",
+
+
+"en_aboutanhlink1_1": "",
+
+
+"en_aboutanh1_2": "",
+
+
+"en_aboutanhlink1_2": "",
+
+
+"en_aboutanh1_3": "",
+
+
+"en_aboutanhlink1_3": "",
+
+
+"en_aboutanh1_4": "",
+
+
+"en_aboutanhlink1_4": "",
+
+
+"en_aboutanh1_5": "",
+
+
+"en_aboutanhlink1_5": "",
+
+
+"en_aboutanh1_6": "",
+
+
+"en_aboutanhlink1_6": "",
+
+
+"en_abouttab2show": false,
+
+
+"en_tabhome_about_title2": "",
+
+
+"en_aboutanh2_1": "",
+
+
+"en_aboutanhlink2_1": "",
+
+
+"en_aboutanh2_2": "",
+
+
+"en_aboutanhlink2_2": "",
+
+
+"en_aboutanh2_3": "",
+
+
+"en_aboutanhlink2_3": "",
+
+
+"en_aboutanh2_4": "",
+
+
+"en_aboutanhlink2_4": "",
+
+
+"en_aboutanh2_5": "",
+
+
+"en_aboutanhlink2_5": "",
+
+
+"en_aboutanh2_6": "",
+
+
+"en_aboutanhlink2_6": "",
+
+
+"en_hienthiiso": false,
+
+
+"en_heading_collection_two": "",
+
+
+"en_noidungiso": "",
+
+
+"en_noidungisonut": "",
+
+
+"en_noidungisonutlink": "",
+
+
+"en_noidungisonutlinkgb": "",
+
+
+"en_hienthipolicy": false,
+
+
+"en_thongtin1show": false,
+
+
+"en_iconpolicy1": "",
+
+
+"en_iconpolicy1h": "",
+
+
+"en_noidungpolici1": "",
+
+
+"en_linkpolicy1": "",
+
+
+"en_thongtin2show": false,
+
+
+"en_iconpolicy2": "",
+
+
+"en_iconpolicy2h": "",
+
+
+"en_noidungpolici2": "",
+
+
+"en_linkpolicy2": "",
+
+
+"en_thongtin3show": false,
+
+
+"en_iconpolicy3": "",
+
+
+"en_iconpolicy3h": "",
+
+
+"en_noidungpolici3": "",
+
+
+"en_linkpolicy3": "",
+
+
+"en_thongtin4show": false,
+
+
+"en_iconpolicy4": "",
+
+
+"en_iconpolicy4h": "",
+
+
+"en_noidungpolici4": "",
+
+
+"en_linkpolicy4": "",
+
+
+"en_footer1_title": "About us",
+
+
+"en_footer1_information": "",
+
+
+"en_footer_link1_title2": "Liên kết",
+
+
+"en_footer_link1_menu2": "",
+
+
+"en_footer_link1_title3": "Liên kết",
+
+
+"en_footer_link1_menu3": "",
+
+
+"en_footer_link1_title4": "Liên kết",
+
+
+"en_footer_link1_menu4": "",
+
+
+"en_footer_link1_title5": "Liên kết",
+
+
+"en_footer_link1_menu5": "",
+
+
+"en_footer_link1_title5cc": "Liên kết",
+
+
+"en_show_collection_image": false,
+
+
+"en_collection_banner": "",
+
+
+"en_pagination_limit": "20",
+
+
+"en_danhmdacbiet": false,
+
+
+"en_tieudecolldb": "",
+
+
+"en_noidungcoldb": "",
+
+
+"en_tieudennut": "",
+
+
+"en_tieudecolldblink": "",
+
+
+"en_tieudecolldblinkmenu": "",
+
+
+"en_pagination_limitx": "20",
+
+
+"en_imageabout": "",
+
+
+"en_noidungabout1": "",
+
+
+"en_imgss2": "",
+
+
+"en_abtitle1": "",
+
+
+"en_abtit2": "",
+
+
+"en_imgss2box1": "",
+
+
+"en_abtitle1box1": "",
+
+
+"en_imgss2box2": "",
+
+
+"en_abtitle1box2": "",
+
+
+"en_imgss2box3": "",
+
+
+"en_abtitle1box3": "",
+
+
+"en_abtitle1box3noidung": "",
+
+
+"en_imgss3show": false,
+
+
+"en_abtitles3": "",
+
+
+"en_abtits3": "",
+
+
+"en_box3icon1": "",
+
+
+"en_box3icontitle1": "",
+
+
+"en_box3iconcontent1": "",
+
+
+"en_box3icon2": "",
+
+
+"en_box3icontitle2": "",
+
+
+"en_box3iconcontent2": "",
+
+
+"en_box3icon3": "",
+
+
+"en_box3icontitle3": "",
+
+
+"en_box3iconcontent3": "",
+
+
+"en_box3icon4": "",
+
+
+"en_box3icontitle4": "",
+
+
+"en_box3iconcontent4": "",
+
+
+"en_imgss4show": false,
+
+
+"en_abtitles4": "",
+
+
+"en_abtits4": "",
+
+
+"en_abtits4page": "",
+
+
+"en_abtits4link": "",
+
+
+"en_imgss5show": false,
+
+
+"en_abtitles5": "",
+
+
+"en_abtits5": "",
+
+
+"en_abtits5link": "",
+
+
+"en_abtits5linkmobile": "",
+
+
+"en_imgss6show": false,
+
+
+"en_abtitles6": "",
+
+
+"en_abtits6": "",
+
+
+"en_imgss6shownam1": false,
+
+
+"en_abtitles6titleanh1": "",
+
+
+"en_abtitles6title1": "",
+
+
+"en_abtits6noidung1": "",
+
+
+"en_imgss6shownam2": false,
+
+
+"en_abtitles6titleanh2": "",
+
+
+"en_abtitles6title2": "",
+
+
+"en_abtits6noidung2": "",
+
+
+"en_imgss6shownam3": false,
+
+
+"en_abtitles6titleanh3": "",
+
+
+"en_abtitles6title3": "",
+
+
+"en_abtits6noidung3": "",
+
+
+"en_imgss6shownam4": false,
+
+
+"en_abtitles6titleanh4": "",
+
+
+"en_abtitles6title4": "",
+
+
+"en_abtits6noidung4": "",
+
+
+"en_imgss6shownam5": false,
+
+
+"en_abtitles6titleanh5": "",
+
+
+"en_abtitles6title5": "",
+
+
+"en_abtits6noidung5": "",
+
+
+"en_imgss6shownam6": false,
+
+
+"en_abtitles6titleanh6": "",
+
+
+"en_abtitles6title6": "",
+
+
+"en_abtits6noidung6": "",
+
+
+"en_imgss6shownam7": false,
+
+
+"en_abtitles6titleanh7": "",
+
+
+"en_abtitles6title7": "",
+
+
+"en_abtits6noidung7": "",
+
+
+"en_imgss6shownam8": false,
+
+
+"en_abtitles6titleanh8": "",
+
+
+"en_abtitles6title8": "",
+
+
+"en_abtits6noidung8": "",
+
+
+"en_imgss6shownam9": false,
+
+
+"en_abtitles6titleanh9": "",
+
+
+"en_abtitles6title9": "",
+
+
+"en_abtits6noidung9": "",
+
+
+"en_imgss6shownam10": false,
+
+
+"en_abtitles6titleanh10": "",
+
+
+"en_abtitles6title10": "",
+
+
+"en_abtits6noidung10": "",
+
+
+"en_imgss6shownam11": false,
+
+
+"en_abtitles6titleanh11": "",
+
+
+"en_abtitles6title11": "",
+
+
+"en_abtits6noidung11": "",
+
+
+"en_imgss6shownam12": false,
+
+
+"en_abtitles6titleanh12": "",
+
+
+"en_abtitles6title12": "",
+
+
+"en_abtits6noidung12": "",
+
+
+"en_mymota1tnut": "Danh mục blog",
+
+
+"en_mymotatab1phone": "Danh mục blog",
+
+
+"en_mymota1": "Danh mục blog",
+
+
+"en_mymotatab1": "Danh mục blog",
+
+
+"en_mymotatab2": "Danh mục blog",
+
+
+"en_mymotatab3": "Danh mục blog",
+
+
+"en_mymotatab4": "Danh mục blog",
+
+
+"en_productspg_related_products": true,
+
+
+"en_productspg_related_title": "Danh mục blog",
+
+
+"en_productspg_featured_quantity": "15",
+
+
+"en_pagination_blog_limit": "4",
+
+
+"en_news_recent_show": true,
+
+
+"en_news_recent_title": "Bài viết mới nhất",
+
+
+"en_show_blog_menu": true,
+
+
+"en_title_blog_menu": "Câu chuyện mỗi tuần",
+
+
+"en_blog_menu": "main-menu",
+
+
+"en_show_page_menu": false,
+
+
+"en_title_page_menu": "",
+
+
+"en_page_menu": "",
+
+
+"en_show_page_banner": false,
+
+
+"en_page_banner": "",
+
+
+"en_page_banner_link": "",
+
+
+"en_show_google_maps": true,
+
+
+"en_google_maps_code": "",
+
+
+"en_footer_address": "",
+
+
+"en_footer_email": "",
+
+
+"en_footer_phone": "",
+
+
+"en_footer_time": "",
+
+
+"en_policy_cart_title": "",
+
+
+"en_policy_cart_1": "",
+
+
+"en_policy_cart_2": "",
+
+
+"en_policy_cart_3": "",
+
+
+"en_policy_cart_4": "",
+
+
+"ar_use_logo": true,
+
+
+"ar_logo": "https://file.hstatic.net/200000233651/file/logo_2020_1_f4b1a88719b64c99abd54cbc59a43bbe.png",
+
+
+"ar_favicon": "",
+
+
+"ar_mainmenu_link": "",
+
+
+"ar_mainmenu_linkmobilesanpham": "",
+
+
+"ar_mainmenu_linkmobile": "",
+
+
+"ar_hottline_mb": "",
+
+
+"ar_email_mb": "",
+
+
+"ar_share_fb_home": "",
+
+
+"ar_use_chatbot": false,
+
+
+"ar_code_messenger_mb": "",
+
+
+"ar_addthis_iconList_show": false,
+
+
+"ar_addthis_icon1_show": false,
+
+
+"ar_addthis_icon1_color1": "#FECF72",
+
+
+"ar_addthis_icon1_color2": "#EF9F00",
+
+
+"ar_addthis_icon1_tootlip": "",
+
+
+"ar_addthis_icon1_action": "",
+
+
+"ar_addthis_icon2_show": false,
+
+
+"ar_addthis_icon2_color1": "#FECF72",
+
+
+"ar_addthis_icon2_color2": "#EF9F00",
+
+
+"ar_addthis_icon2_tootlip": "",
+
+
+"ar_addthis_icon2_action": "",
+
+
+"ar_addthis_icon3_show": false,
+
+
+"ar_addthis_icon3_color1": "#FECF72",
+
+
+"ar_addthis_icon3_color2": "#EF9F00",
+
+
+"ar_addthis_icon3_tootlip": "",
+
+
+"ar_addthis_icon3_title": "",
+
+
+"ar_addthis_icon3_title2": "",
+
+
+"ar_addthis_icon3_content": "",
+
+
+"ar_addthis_icon4_show": false,
+
+
+"ar_addthis_icon4_color1": "#FECF72",
+
+
+"ar_addthis_icon4_color2": "#EF9F00",
+
+
+"ar_addthis_icon4_tootlip": "",
+
+
+"ar_addthis_icon4_action": "",
+
+
+"ar_popup_contact_show": false,
+
+
+"ar_popup_contact_select": "popupBanner",
+
+
+"ar_popup_contact_time": "",
+
+
+"ar_popup_contact_banner": "",
+
+
+"ar_popup_contact_alt": "Các ưu đãi của chúng tôi",
+
+
+"ar_popup_contact_link": "/",
+
+
+"ar_popup_contact_bkg": "",
+
+
+"ar_popup_contact_title": "Hãy đến với chúng tôi",
+
+
+"ar_popup_contact_content": "Chúng tôi sẽ cập nhật các chương trình khuyến mãi đến bạn.",
+
+
+"ar_popup_contact_description_1": "Giảm giá sản phẩm",
+
+
+"ar_popup_contact_description_2": "Sản phẩm mới",
+
+
+"ar_popup_contact_description_3": "Sản phẩm bán chạy",
+
+
+"ar_use_info_header": false,
+
+
+"ar_info_headerphone": "Freeship",
+
+
+"ar_info_headerphonecanhlogo": "Freeship",
+
+
+"ar_info_headerphonecanhlogolink": "Freeship",
+
+
+"ar_showsocial1": false,
+
+
+"ar_social_linksocial_1": "Liên kết",
+
+
+"ar_anhicon1.png": "",
+
+
+"ar_showsocial2": false,
+
+
+"ar_social_linksocial_2": "Liên kết",
+
+
+"ar_anhicon2.png": "",
+
+
+"ar_showsocial3": false,
+
+
+"ar_social_linksocial_3": "Liên kết",
+
+
+"ar_anhicon3.png": "",
+
+
+"ar_showsocial4": false,
+
+
+"ar_social_linksocial_4": "Liên kết",
+
+
+"ar_anhicon4.png": "",
+
+
+"ar_showsocial5": false,
+
+
+"ar_social_linksocial_5": "Liên kết",
+
+
+"ar_anhicon5.png": "",
+
+
+"ar_showsocial6": false,
+
+
+"ar_social_linksocial_6": "Liên kết",
+
+
+"ar_anhicon6.png": "",
+
+
+"ar_showsocial7": false,
+
+
+"ar_social_linksocial_7": "Liên kết",
+
+
+"ar_anhicon7.png": "",
+
+
+"ar_showsocial8": false,
+
+
+"ar_social_linksocial_8": "Liên kết",
+
+
+"ar_anhicon8.png": "",
+
+
+"ar_showsocial9": false,
+
+
+"ar_social_linksocial_9": "Liên kết",
+
+
+"ar_anhicon9.png": "",
+
+
+"ar_showsocial10": false,
+
+
+"ar_social_linksocial_10": "Liên kết",
+
+
+"ar_anhicon10.png": "",
+
+
+"ar_slideshow_1": "",
+
+
+"ar_tieudebanner": "",
+
+
+"ar_noidungbanner": "",
+
+
+"ar_tieudenut": "",
+
+
+"ar_linkcuanut": "/collections/all",
+
+
+"ar_use_category": true,
+
+
+"ar_showcat1": false,
+
+
+"ar_titlecat1": "",
+
+
+"ar_titlecatnoidung1": "",
+
+
+"ar_titcatnut1": "",
+
+
+"ar_titcatnutlink1": "",
+
+
+"ar_titcatnutlinkrightban1": "",
+
+
+"ar_titcatnutlinkright1": "",
+
+
+"ar_showcat2": false,
+
+
+"ar_titlecat2": "",
+
+
+"ar_titlecatnoidung2": "",
+
+
+"ar_titcatnut2": "",
+
+
+"ar_titcatnutlink2": "",
+
+
+"ar_titcatnutlinkrightban2": "",
+
+
+"ar_titcatnutlinkright2": "",
+
+
+"ar_showcat3": false,
+
+
+"ar_titlecat3": "",
+
+
+"ar_titlecatnoidung3": "",
+
+
+"ar_titcatnut3": "",
+
+
+"ar_titcatnutlink3": "",
+
+
+"ar_titcatnutlinkrightban3": "",
+
+
+"ar_titcatnutlinkright3": "",
+
+
+"ar_showcat4": false,
+
+
+"ar_titlecat4": "",
+
+
+"ar_titlecatnoidung4": "",
+
+
+"ar_titcatnut4": "",
+
+
+"ar_titcatnutlink4": "",
+
+
+"ar_titcatnutlinkrightban4": "",
+
+
+"ar_titcatnutlinkright4": "",
+
+
+"ar_showcat5": false,
+
+
+"ar_titlecat5": "",
+
+
+"ar_titlecatnoidung5": "",
+
+
+"ar_titcatnut5": "",
+
+
+"ar_titcatnutlink5": "",
+
+
+"ar_titcatnutlinkrightban5": "",
+
+
+"ar_titcatnutlinkright5": "",
+
+
+"ar_use_collection_one_products": false,
+
+
+"ar_heading_collection_one": "",
+
+
+"ar_bloghome": "",
+
+
+"ar_block_home_category1": "",
+
+
+"ar_block_home_category1_subtitle": "",
+
+
+"ar_block_home_category1_title": "",
+
+
+"ar_block_home_category1_button": "",
+
+
+"ar_block_home_category1_link": "",
+
+
+"ar_block_home_category2": "",
+
+
+"ar_block_home_category2_subtitle": "",
+
+
+"ar_block_home_category2_title": "",
+
+
+"ar_block_home_category2_button": "",
+
+
+"ar_block_home_category2_link": "",
+
+
+"ar_home_about_show": false,
+
+
+"ar_home_about_title": "",
+
+
+"ar_home_about_buttonnoidung": "",
+
+
+"ar_home_about_button": "",
+
+
+"ar_home_about_link": "",
+
+
+"ar_abouttab1show": false,
+
+
+"ar_tabhome_about_title": "",
+
+
+"ar_aboutanh1_1": "",
+
+
+"ar_aboutanhlink1_1": "",
+
+
+"ar_aboutanh1_2": "",
+
+
+"ar_aboutanhlink1_2": "",
+
+
+"ar_aboutanh1_3": "",
+
+
+"ar_aboutanhlink1_3": "",
+
+
+"ar_aboutanh1_4": "",
+
+
+"ar_aboutanhlink1_4": "",
+
+
+"ar_aboutanh1_5": "",
+
+
+"ar_aboutanhlink1_5": "",
+
+
+"ar_aboutanh1_6": "",
+
+
+"ar_aboutanhlink1_6": "",
+
+
+"ar_abouttab2show": false,
+
+
+"ar_tabhome_about_title2": "",
+
+
+"ar_aboutanh2_1": "",
+
+
+"ar_aboutanhlink2_1": "",
+
+
+"ar_aboutanh2_2": "",
+
+
+"ar_aboutanhlink2_2": "",
+
+
+"ar_aboutanh2_3": "",
+
+
+"ar_aboutanhlink2_3": "",
+
+
+"ar_aboutanh2_4": "",
+
+
+"ar_aboutanhlink2_4": "",
+
+
+"ar_aboutanh2_5": "",
+
+
+"ar_aboutanhlink2_5": "",
+
+
+"ar_aboutanh2_6": "",
+
+
+"ar_aboutanhlink2_6": "",
+
+
+"ar_hienthiiso": false,
+
+
+"ar_heading_collection_two": "",
+
+
+"ar_noidungiso": "",
+
+
+"ar_noidungisonut": "",
+
+
+"ar_noidungisonutlink": "",
+
+
+"ar_noidungisonutlinkgb": "",
+
+
+"ar_hienthipolicy": false,
+
+
+"ar_thongtin1show": false,
+
+
+"ar_iconpolicy1": "",
+
+
+"ar_iconpolicy1h": "",
+
+
+"ar_noidungpolici1": "",
+
+
+"ar_linkpolicy1": "",
+
+
+"ar_thongtin2show": false,
+
+
+"ar_iconpolicy2": "",
+
+
+"ar_iconpolicy2h": "",
+
+
+"ar_noidungpolici2": "",
+
+
+"ar_linkpolicy2": "",
+
+
+"ar_thongtin3show": false,
+
+
+"ar_iconpolicy3": "",
+
+
+"ar_iconpolicy3h": "",
+
+
+"ar_noidungpolici3": "",
+
+
+"ar_linkpolicy3": "",
+
+
+"ar_thongtin4show": false,
+
+
+"ar_iconpolicy4": "",
+
+
+"ar_iconpolicy4h": "",
+
+
+"ar_noidungpolici4": "",
+
+
+"ar_linkpolicy4": "",
+
+
+"ar_footer1_title": "About us",
+
+
+"ar_footer1_information": "",
+
+
+"ar_footer_link1_title2": "Liên kết",
+
+
+"ar_footer_link1_menu2": "",
+
+
+"ar_footer_link1_title3": "Liên kết",
+
+
+"ar_footer_link1_menu3": "",
+
+
+"ar_footer_link1_title4": "Liên kết",
+
+
+"ar_footer_link1_menu4": "",
+
+
+"ar_footer_link1_title5": "Liên kết",
+
+
+"ar_footer_link1_menu5": "",
+
+
+"ar_footer_link1_title5cc": "Liên kết",
+
+
+"ar_show_collection_image": false,
+
+
+"ar_collection_banner": "",
+
+
+"ar_pagination_limit": "20",
+
+
+"ar_danhmdacbiet": false,
+
+
+"ar_tieudecolldb": "",
+
+
+"ar_noidungcoldb": "",
+
+
+"ar_tieudennut": "",
+
+
+"ar_tieudecolldblink": "",
+
+
+"ar_tieudecolldblinkmenu": "",
+
+
+"ar_pagination_limitx": "20",
+
+
+"ar_imageabout": "",
+
+
+"ar_noidungabout1": "",
+
+
+"ar_imgss2": "",
+
+
+"ar_abtitle1": "",
+
+
+"ar_abtit2": "",
+
+
+"ar_imgss2box1": "",
+
+
+"ar_abtitle1box1": "",
+
+
+"ar_imgss2box2": "",
+
+
+"ar_abtitle1box2": "",
+
+
+"ar_imgss2box3": "",
+
+
+"ar_abtitle1box3": "",
+
+
+"ar_abtitle1box3noidung": "",
+
+
+"ar_imgss3show": false,
+
+
+"ar_abtitles3": "",
+
+
+"ar_abtits3": "",
+
+
+"ar_box3icon1": "",
+
+
+"ar_box3icontitle1": "",
+
+
+"ar_box3iconcontent1": "",
+
+
+"ar_box3icon2": "",
+
+
+"ar_box3icontitle2": "",
+
+
+"ar_box3iconcontent2": "",
+
+
+"ar_box3icon3": "",
+
+
+"ar_box3icontitle3": "",
+
+
+"ar_box3iconcontent3": "",
+
+
+"ar_box3icon4": "",
+
+
+"ar_box3icontitle4": "",
+
+
+"ar_box3iconcontent4": "",
+
+
+"ar_imgss4show": false,
+
+
+"ar_abtitles4": "",
+
+
+"ar_abtits4": "",
+
+
+"ar_abtits4page": "",
+
+
+"ar_abtits4link": "",
+
+
+"ar_imgss5show": false,
+
+
+"ar_abtitles5": "",
+
+
+"ar_abtits5": "",
+
+
+"ar_abtits5link": "",
+
+
+"ar_abtits5linkmobile": "",
+
+
+"ar_imgss6show": false,
+
+
+"ar_abtitles6": "",
+
+
+"ar_abtits6": "",
+
+
+"ar_imgss6shownam1": false,
+
+
+"ar_abtitles6titleanh1": "",
+
+
+"ar_abtitles6title1": "",
+
+
+"ar_abtits6noidung1": "",
+
+
+"ar_imgss6shownam2": false,
+
+
+"ar_abtitles6titleanh2": "",
+
+
+"ar_abtitles6title2": "",
+
+
+"ar_abtits6noidung2": "",
+
+
+"ar_imgss6shownam3": false,
+
+
+"ar_abtitles6titleanh3": "",
+
+
+"ar_abtitles6title3": "",
+
+
+"ar_abtits6noidung3": "",
+
+
+"ar_imgss6shownam4": false,
+
+
+"ar_abtitles6titleanh4": "",
+
+
+"ar_abtitles6title4": "",
+
+
+"ar_abtits6noidung4": "",
+
+
+"ar_imgss6shownam5": false,
+
+
+"ar_abtitles6titleanh5": "",
+
+
+"ar_abtitles6title5": "",
+
+
+"ar_abtits6noidung5": "",
+
+
+"ar_imgss6shownam6": false,
+
+
+"ar_abtitles6titleanh6": "",
+
+
+"ar_abtitles6title6": "",
+
+
+"ar_abtits6noidung6": "",
+
+
+"ar_imgss6shownam7": false,
+
+
+"ar_abtitles6titleanh7": "",
+
+
+"ar_abtitles6title7": "",
+
+
+"ar_abtits6noidung7": "",
+
+
+"ar_imgss6shownam8": false,
+
+
+"ar_abtitles6titleanh8": "",
+
+
+"ar_abtitles6title8": "",
+
+
+"ar_abtits6noidung8": "",
+
+
+"ar_imgss6shownam9": false,
+
+
+"ar_abtitles6titleanh9": "",
+
+
+"ar_abtitles6title9": "",
+
+
+"ar_abtits6noidung9": "",
+
+
+"ar_imgss6shownam10": false,
+
+
+"ar_abtitles6titleanh10": "",
+
+
+"ar_abtitles6title10": "",
+
+
+"ar_abtits6noidung10": "",
+
+
+"ar_imgss6shownam11": false,
+
+
+"ar_abtitles6titleanh11": "",
+
+
+"ar_abtitles6title11": "",
+
+
+"ar_abtits6noidung11": "",
+
+
+"ar_imgss6shownam12": false,
+
+
+"ar_abtitles6titleanh12": "",
+
+
+"ar_abtitles6title12": "",
+
+
+"ar_abtits6noidung12": "",
+
+
+"ar_mymota1tnut": "Danh mục blog",
+
+
+"ar_mymotatab1phone": "Danh mục blog",
+
+
+"ar_mymota1": "Danh mục blog",
+
+
+"ar_mymotatab1": "Danh mục blog",
+
+
+"ar_mymotatab2": "Danh mục blog",
+
+
+"ar_mymotatab3": "Danh mục blog",
+
+
+"ar_mymotatab4": "Danh mục blog",
+
+
+"ar_productspg_related_products": true,
+
+
+"ar_productspg_related_title": "Danh mục blog",
+
+
+"ar_productspg_featured_quantity": "15",
+
+
+"ar_pagination_blog_limit": "6",
+
+
+"ar_news_recent_show": false,
+
+
+"ar_news_recent_title": "Bài viết mới nhất",
+
+
+"ar_show_blog_menu": false,
+
+
+"ar_title_blog_menu": "",
+
+
+"ar_blog_menu": "",
+
+
+"ar_show_page_menu": false,
+
+
+"ar_title_page_menu": "",
+
+
+"ar_page_menu": "",
+
+
+"ar_show_page_banner": false,
+
+
+"ar_page_banner": "",
+
+
+"ar_page_banner_link": "",
+
+
+"ar_show_google_maps": true,
+
+
+"ar_google_maps_code": "",
+
+
+"ar_footer_address": "",
+
+
+"ar_footer_email": "",
+
+
+"ar_footer_phone": "",
+
+
+"ar_footer_time": "",
+
+
+"ar_policy_cart_title": "",
+
+
+"ar_policy_cart_1": "",
+
+
+"ar_policy_cart_2": "",
+
+
+"ar_policy_cart_3": "",
+
+
+"ar_policy_cart_4": "",
+
+
+"x1danhmdacbiet": true,
+
+
+"x1tieudecolldb": "KHÁM PHÁ DANH MỤC SẢN PHẨM",
+
+
+"x1noidungcoldb": "",
+
+
+"x1tieudennut": "Xem thêm",
+
+
+"x1tieudecolldblink": "https://congtytruongan.vn/collections/sptruongan",
+
+
+"x1tieudecolldblinkmenu": "danh-muc-san-pham-dac-biet",
+
+
+"en_x1danhmdacbiet": false,
+
+
+"en_x1tieudecolldb": "",
+
+
+"en_x1noidungcoldb": "",
+
+
+"en_x1tieudennut": "",
+
+
+"en_x1tieudecolldblink": "",
+
+
+"en_x1tieudecolldblinkmenu": "",
+
+
+"ar_x1danhmdacbiet": false,
+
+
+"ar_x1tieudecolldb": "",
+
+
+"ar_x1noidungcoldb": "",
+
+
+"ar_x1tieudennut": "",
+
+
+"ar_x1tieudecolldblink": "",
+
+
+"ar_x1tieudecolldblinkmenu": "",
+
+
+"slideshow_show": false,
+
+
+"en_slideshow_show": true,
+
+
+"en_slide_1": true,
+
+
+"en_slide_1_link": "/collections/all",
+
+
+"en_slide_1_alt": "",
+
+
+"en_slide_2": false,
+
+
+"en_slideshow_2": "https://file.hstatic.net/200000233651/file/112112112_9a2090f3731d48bdbd094cfc1c4a9c79.jpg",
+
+
+"en_slide_2_link": "/collections/all",
+
+
+"en_slide_2_alt": "",
+
+
+"en_slide_3": false,
+
+
+"en_slideshow_3": "https://file.hstatic.net/200000233651/file/112112112_9a2090f3731d48bdbd094cfc1c4a9c79.jpg",
+
+
+"en_slide_3_link": "/collections/all",
+
+
+"en_slide_3_alt": "",
+
+
+"en_slide_4": false,
+
+
+"en_slideshow_4": "https://file.hstatic.net/200000233651/file/112112112_9a2090f3731d48bdbd094cfc1c4a9c79.jpg",
+
+
+"en_slide_4_link": "/collections/all",
+
+
+"en_slide_4_alt": "",
+
+
+"ar_slideshow_show": false,
+
+
+"ar_slide_1": false,
+
+
+"ar_slide_1_link": "/collections/all",
+
+
+"ar_slide_1_alt": "",
+
+
+"ar_slide_2": false,
+
+
+"ar_slideshow_2": "",
+
+
+"ar_slide_2_link": "/collections/all",
+
+
+"ar_slide_2_alt": "",
+
+
+"ar_slide_3": false,
+
+
+"ar_slideshow_3": "",
+
+
+"ar_slide_3_link": "/collections/all",
+
+
+"ar_slide_3_alt": "",
+
+
+"ar_slide_4": false,
+
+
+"ar_slideshow_4": "",
+
+
+"ar_slide_4_link": "/collections/all",
+
+
+"ar_slide_4_alt": ""
+
+},
+
+"presets": {
+
+
+"demo": {
+
+
+
+"use_logo": false,
+
+
+
+"customer_layout": "theme",
+
+
+
+"base_font": "Montserrat",
+
+
+
+"show_meta_keyword": false,
+
+
+
+"meta_keyword": "hhh Theme mặc định, Theme bán hàng, Theme haravan",
+
+
+
+"header_r_phone": "1900.636.099",
+
+
+
+"header_desc_1": "Miễn phí vận chuyển",
+
+
+
+"header_desc_2": "ĐƠN HÀNG TRÊN 900K",
+
+
+
+"slide_1": true,
+
+
+
+"slide_1_cap_1": "Sưu tập xuân hè",
+
+
+
+"slide_1_cap_2": "Thời trang xuất khẩu",
+
+
+
+"slide_1_btn": "Xem thêm",
+
+
+
+"slide_1_link": "www.maylambanhmi.vn",
+
+
+
+"align_title1": "center",
+
+
+
+"animate_title1": "bounceIn",
+
+
+
+"slide_2": true,
+
+
+
+"slide_2_cap_1": "Sưu tập mới",
+
+
+
+"slide_2_cap_2": "phụ kiện dạo phố",
+
+
+
+"slide_2_btn": "Xem thêm",
+
+
+
+"slide_2_link": "/collections/all",
+
+
+
+"align_title2": "center",
+
+
+
+"animate_title2": "bounceInRight",
+
+
+
+"slide_3": true,
+
+
+
+"slide_3_cap_1": "Thời trang",
+
+
+
+"slide_3_cap_2": "Phụ kiện thời trang",
+
+
+
+"slide_3_btn": "Xem thêm",
+
+
+
+"slide_3_link": "/collections/all",
+
+
+
+"align_title3": "center",
+
+
+
+"animate_title3": "bounceInLeft",
+
+
+
+"slide_4": false,
+
+
+
+"slide_4_cap_1": "",
+
+
+
+"slide_4_cap_2": "",
+
+
+
+"slide_4_btn": "",
+
+
+
+"slide_4_link": "/collections/all",
+
+
+
+"align_title4": "center",
+
+
+
+"animate_title4": "fade",
+
+
+
+"use_featured_products": true,
+
+
+
+"featured_products_cap": "Bộ sưu tập mới nhất",
+
+
+
+"featured_products_title": "Sản phẩm mới",
+
+
+
+"featured_collection": "hot-products",
+
+
+
+"use_icon_featured": true,
+
+
+
+"use_sale_products": true,
+
+
+
+"sale_products_cap": "",
+
+
+
+"sale_products_title": "Sản phẩm mới",
+
+
+
+"sale_collection": "onsale",
+
+
+
+"use_icon_sale": true,
+
+
+
+"use_ad_banners": "1",
+
+
+
+"ad_banner_1": "Miễn phí vận chuyển",
+
+
+
+"ad_banner_2": "Với tất cả đơn hàng trên 500k",
+
+
+
+"ad_banner_desc": "Miễn phí 2 ngày vận chuyển với đơn hàng trên 500k trừ trực tiếp khi thanh toán",
+
+
+
+"ad_banner_link": "/",
+
+
+
+"show_block_home_category1": false,
+
+
+
+"block_home_category1_title": "Sofa",
+
+
+
+"block_home_category1_link": "/collections/all",
+
+
+
+"show_block_home_category2": false,
+
+
+
+"block_home_category2_title": "Modern Furniture",
+
+
+
+"block_home_category2_link": "/collections/all",
+
+
+
+"footer_bg": "#252a2b",
+
+
+
+"footer_title_colour": "#8d9090",
+
+
+
+"footer_txt_colour": "#ffffff",
+
+
+
+"footer_link_colour_hover": "#ff9e9e",
+
+
+
+"footer_bg_cp": " #141718",
+
+
+
+"footer_about_show": true,
+
+
+
+"footer_about_heading": "Hotline hỗ trợ",
+
+
+
+"footer_about_message": "Với hơn 100 nhân viên tư vấn trên mọi phương diện, không chỉ là hướng dẫn và xử lý các vấn đề từ Haravan, chúng tôi luôn mong cùng chia sẻ các kinh nghiệm giúp bạn bán được nhiều hàng hơn.",
+
+
+
+"footer_about_address": "56 Vân côi, Q. Tân Bình, Tp.HCM",
+
+
+
+"footer_about_email": "hi@haravan.com",
+
+
+
+"footer_about_phone": "1900.636.099",
+
+
+
+"footer_about_fax": "1900.636.099",
+
+
+
+"footer_linklist1_show": true,
+
+
+
+"footer_linklist1_heading": "Liên kết",
+
+
+
+"footer_linklist1": "",
+
+
+
+"mailing_list_show": true,
+
+
+
+"mailing_list_heading": "Đăng kí nhận tin",
+
+
+
+"mailing_list_caption": "Hãy nhập email của bạn vào đây để nhận tin mới nhất!",
+
+
+
+"mailing_list_emailtext": "Nhập email của bạn",
+
+
+
+"show_fanpage_faceook": "1",
+
+
+
+"facebook_widget_title": "Kết nối với chúng tôi",
+
+
+
+"fanpage_faceook": "https://www.facebook.com/haravan.official",
+
+
+
+"social_icons_show": true,
+
+
+
+"social_icons_colour": "#9e9e9e",
+
+
+
+"social_icons_hover": "#ffffff",
+
+
+
+"social_icons_hover_bg": "#ffffff",
+
+
+
+"social_icons_facebook_link": "/",
+
+
+
+"social_icons_twitter_link": "/",
+
+
+
+"social_icons_pinterest_link": "/",
+
+
+
+"social_icons_google_link": "/",
+
+
+
+"social_icons_youtube_link": "/",
+
+
+
+"social_icons_instagram_link": "/",
+
+
+
+"shop_bg_color": "#00a7f4",
+
+
+
+"shop_bg2_color": "#ff00ff",
+
+
+
+"shop_bg3_color": "#e6ff00",
+
+
+
+"shop_text_color": "#252a2b",
+
+
+
+"header_bg_color": "#ffffff",
+
+
+
+"header_text_color": "#ffffff",
+
+
+
+"header_text_hover_color": "#04b2de",
+
+
+
+"bg_navbar_color": "#ffffff",
+
+
+
+"text_navbar_color": "#4d4d4d",
+
+
+
+"text_hover_navbar_color": "#00a7f4",
+
+
+
+"shop_border_color": "#ebebeb",
+
+
+
+"slide_title1_colour": "#ffffff",
+
+
+
+"slide_title2_colour": "#ffffff",
+
+
+
+"slide_btn_colour": "#ffffff",
+
+
+
+"shop_text_dark_color": "#ffffff",
+
+
+
+"link_text_color": "#000000",
+
+
+
+"link_text_hover_color": "#65d1e6",
+
+
+
+"pr_n_color": "#252a2b",
+
+
+
+"pr_n_color_hover": "#00a7f4",
+
+
+
+"pr_p_color": "#252a2b",
+
+
+
+"pr_p_color_hover": "#777a7b",
+
+
+
+"btn_add_cart": "#ffffff",
+
+
+
+"btn_text_add_cart": "#333333",
+
+
+
+"btn_add_cart_hover": "#00a7f4",
+
+
+
+"btn_text_add_cart_hover": "#ffffff",
+
+
+
+"pagination_limit": "20",
+
+
+
+"show_collection_menu": true,
+
+
+
+"collection_menu_title": "Danh mục ",
+
+
+
+"collection_menu_link": "left",
+
+
+
+"show_left_ad": true,
+
+
+
+"promo_link_left": "",
+
+
+
+"use_tags_products": true,
+
+
+
+"share_prod_on_facebook": true,
+
+
+
+"share_prod_on_googleplus": true,
+
+
+
+"use_comment_products": true,
+
+
+
+"productspg_related_products": true,
+
+
+
+"productspg_featured_quantity": "6",
+
+
+
+"blog_recent_show": "1",
+
+
+
+"blog_recent_title": "Danh mục blog",
+
+
+
+"blog_recent_menu": "left",
+
+
+
+"news_recent_show": "1",
+
+
+
+"news_recent_title": "Bài viết mới nhất",
+
+
+
+"pagination_news_limit": "3",
+
+
+
+"pagination_blog_limit": "6",
+
+
+
+"show_google_maps": true,
+
+
+
+"google_maps_code": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.615593436863!2d106.65415201477133!3d10.76408024232994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752eec7752c743%3A0xd832d71bd12b6a15!2zRmxlbWluZ3RvbiBUb3dlciwgMTgyIEzDqiDEkOG6oWkgSMOgbmgsIHBoxrDhu51uZyAxNSwgUXXhuq1uIDExLCBI4buTIENow60gTWluaCwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1521530731757\" width=\"100%\" height=\"700\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+
+
+
+"footer_text": "Giải pháp bán hàng toàn diện từ website đến cửa hàng",
+
+
+
+"footer_company": "Fashion Style",
+
+
+
+"footer_address": "Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11, Tp. Hồ Chí Minh.",
+
+
+
+"footer_phone": "1900.636.099",
+
+
+
+"footer_email": "hi@haravan.com",
+
+
+
+"collection_sort": true,
+
+
+
+"shop_text2_color": "#ff2e77",
+
+
+
+"shop_fearture_color": "#fdbc0e",
+
+
+
+"slide_1_alt": "Sản phẩm nổi bật",
+
+
+
+"slide_2_alt": "Sản phẩm nổi bật",
+
+
+
+"slide_3_alt": "Sản phẩm nổi bật",
+
+
+
+"slide_4_alt": "",
+
+
+
+"block_home_category1_alt": "Khuyến mãi 1",
+
+
+
+"block_home_category2_alt": "Khuyến mãi 2",
+
+
+
+"font_slide_title1": "30",
+
+
+
+"font_slide_title2": "70",
+
+
+
+"font_slide_title3": "15",
+
+
+
+"slide_1_cap_3": "Hàng mới về",
+
+
+
+"slide_2_cap_3": "Sản phẩm nổi bật",
+
+
+
+"slide_3_cap_3": "Khuyến mãi tới 50%",
+
+
+
+"slide_4_cap_3": "",
+
+
+
+"color_title_1": "Xanh dương",
+
+
+
+"color_1": "#3232d1",
+
+
+
+"color_title_2": "Vàng",
+
+
+
+"color_2": "#d9c211",
+
+
+
+"color_title_3": "Đen",
+
+
+
+"color_3": "#170606",
+
+
+
+"color_title_4": "Nâu",
+
+
+
+"color_4": "#424141",
+
+
+
+"color_title_5": "Tím",
+
+
+
+"color_5": "#810a87",
+
+
+
+"color_title_6": "",
+
+
+
+"color_6": "#ffffff",
+
+
+
+"color_title_7": "",
+
+
+
+"color_7": "#ffffff",
+
+
+
+"color_title_8": "",
+
+
+
+"color_8": "#ffffff",
+
+
+
+"color_title_9": "",
+
+
+
+"color_9": "#ffffff",
+
+
+
+"color_title_10": "",
+
+
+
+"color_10": "#ffffff",
+
+
+
+"color_title_11": "",
+
+
+
+"color_11": "#ffffff",
+
+
+
+"color_title_12": "",
+
+
+
+"color_12": "#ffffff",
+
+
+
+"color_title_13": "",
+
+
+
+"color_13": "#ffffff",
+
+
+
+"color_title_14": "",
+
+
+
+"color_14": "#ffffff",
+
+
+
+"color_title_15": "",
+
+
+
+"color_15": "#ffffff",
+
+
+
+"color_title_16": "",
+
+
+
+"color_16": "#ffffff",
+
+
+
+"color_title_17": "",
+
+
+
+"color_17": "#ffffff",
+
+
+
+"color_title_18": "",
+
+
+
+"color_18": "#ffffff",
+
+
+
+"color_title_19": "",
+
+
+
+"color_19": "#ffffff",
+
+
+
+"color_title_20": "",
+
+
+
+"color_20": "#ffffff",
+
+
+
+"footer_time": "Thứ 2 đến Thứ 6 từ 8h đến 18h; Thứ 7 và Chủ nhật từ 8h00 đến 17h00 ",
+
+
+
+"heading_featured": "GREY FASHION <br> Bộ sưu tập xuân hè mới nhất 2018",
+
+
+
+"heading_featured_url": "/collections/all",
+
+
+
+"block_home_category1_note": "Bộ sưu tập",
+
+
+
+"block_home_category2_note": "Bộ sưu tập ",
+
+
+
+"home_about_show": true,
+
+
+
+"home_about_title": "Về chúng tôi",
+
+
+
+"home_about_button": "Xem ngay",
+
+
+
+"home_about_link": "/pages/about-us",
+
+
+
+"home_about_page": "about-us",
+
+
+
+"social_icons_title": "Mạng xã hội",
+
+
+
+"social_icons_note": "Vui lòng nhấp vào liên kết để theo dõi",
+
+
+
+"footer_about_note": "Tổng đài hỗ trợ hoạt động từ T2 đến T6",
+
+
+
+"show_vendor": true,
+
+
+
+"show_color": true,
+
+
+
+"show_size": false,
+
+
+
+"field_filter_size": "35, 36, 37, 38",
+
+
+
+"share_prod_on_twitter": true,
+
+
+
+"share_prod_on_plusgoogle": true,
+
+
+
+"share_prod_on_pinterest": true,
+
+
+
+"productspg_related_title": "Sản phẩm liên quan",
+
+
+
+"mainmenu_link": "main-menu",
+
+
+
+"childrenmenu__link": "footer",
+
+
+
+"footer_bg_email": "#141718",
+
+
+
+"footer_bg_button": "#363d3e",
+
+
+
+"pr_btn_sale": "#ededed",
+
+
+
+"btn_bg_shop": "#1573e0",
+
+
+
+"slide_bkg_color": "#fbf3f5",
+
+
+
+"slide_text_color": "#262627",
+
+
+
+"slide_button_color": "#262627",
+
+
+
+"footer_bg_copyright": "#141718",
+
+
+
+"footer_text_copyright": "#ffffff",
+
+
+
+"btn_addcarrt_mb": "#ff9e9e",
+
+
+
+"shop_title_color": "#252a2b",
+
+
+
+"show_block_home_category3": false,
+
+
+
+"block_home_category3_link": "/collections/hot-products",
+
+
+
+"block_home_category3_alt": "Khuyến mãi 3",
+
+
+
+"use_collection_one_products": true,
+
+
+
+"heading_collection_one": "Sản phẩm mới",
+
+
+
+"heading_collection_one_url": "/",
+
+
+
+"collection_one": "frontpage",
+
+
+
+"use_collection_two_products": true,
+
+
+
+"heading_collection_two": "Sản phẩm bán chạy",
+
+
+
+"heading_collection_two_url": "/",
+
+
+
+"collection_two": "onsale",
+
+
+
+"show_footer1": true,
+
+
+
+"footer1_title": "Giới thiệu",
+
+
+
+"footer1_information": "trang mua sắm trực tuyến của thương hiệu thời trang Lama, thời trang nam, nữ, phụ kiện, giúp bạn tiếp cận xu hướng thời trang mới nhất.",
+
+
+
+"social_icon_show": "1",
+
+
+
+"facebook_link": "/",
+
+
+
+"instagram_link": "/",
+
+
+
+"footer_link1_show": true,
+
+
+
+"footer_link1_title": "Liên kết",
+
+
+
+"footer_link1_menu": "footer",
+
+
+
+"show_footer2": true,
+
+
+
+"footer2_title": "Thông tin liên hệ",
+
+
+
+"footer-address": "Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11, Tp. Hồ Chí Minh.",
+
+
+
+"footer-tell": "1900.636.099",
+
+
+
+"footer-fax": "1900.636.099",
+
+
+
+"footer-email": "hi@haravan.com",
+
+
+
+"show_footer3": true,
+
+
+
+"footer3_title": "Fanpage",
+
+
+
+"footer_link2_show": "1",
+
+
+
+"footer_link2_title": "Liên kết",
+
+
+
+"footer_link2_menu": "main-menu",
+
+
+
+"footer-address-title": "",
+
+
+
+"footer-tell-title": "",
+
+
+
+"footer-fax-title": "",
+
+
+
+"footer-email-title": "",
+
+
+
+"show_list_col": true,
+
+
+
+"link_list_col": "Danh mục sản phẩm",
+
+
+
+"collection_sidebar": "",
+
+
+
+"show_collection_filter": true,
+
+
+
+"filter_title": "Bộ lọc sản phẩm",
+
+
+
+"use_vendor_filter": true,
+
+
+
+"vendor_title": "Thương hiệu",
+
+
+
+"vendor_limit": "1",
+
+
+
+"use_color_filter": true,
+
+
+
+"color_title": "Màu sắc",
+
+
+
+"use_color_filter_1": "1",
+
+
+
+"color_name_new_1": "Hồng",
+
+
+
+"color_code_new_1": "#ef5777",
+
+
+
+"use_color_filter_2": "1",
+
+
+
+"color_name_new_2": "Vàng",
+
+
+
+"color_code_new_2": "#ffd32a",
+
+
+
+"use_color_filter_3": "1",
+
+
+
+"color_name_new_3": "Xám",
+
+
+
+"color_code_new_3": "#d2dae2",
+
+
+
+"use_color_filter_4": "1",
+
+
+
+"color_name_new_4": "Xanh",
+
+
+
+"color_code_new_4": "#3c40c6",
+
+
+
+"use_color_filter_5": "1",
+
+
+
+"color_name_new_5": "Xanh lá",
+
+
+
+"color_code_new_5": "#0be881",
+
+
+
+"use_color_filter_6": "1",
+
+
+
+"color_name_new_6": "Sen",
+
+
+
+"color_code_new_6": "#f53b57",
+
+
+
+"use_color_filter_7": "1",
+
+
+
+"color_name_new_7": "Xanh biển",
+
+
+
+"color_code_new_7": "#0fbcf9",
+
+
+
+"use_color_filter_8": "1",
+
+
+
+"color_name_new_8": "Đen",
+
+
+
+"color_code_new_8": "#000000",
+
+
+
+"use_color_filter_9": true,
+
+
+
+"color_name_new_9": "Trắng",
+
+
+
+"color_code_new_9": "#ffffff",
+
+
+
+"use_color_filter_10": true,
+
+
+
+"color_name_new_10": "Đỏ",
+
+
+
+"color_code_new_10": "#ff3f34",
+
+
+
+"use_color_filter_11": true,
+
+
+
+"color_name_new_11": "Tím",
+
+
+
+"color_code_new_11": "#a55eea",
+
+
+
+"use_color_filter_12": true,
+
+
+
+"color_name_new_12": "Pure Apple",
+
+
+
+"color_code_new_12": "#6ab04c",
+
+
+
+"use_color_filter_13": true,
+
+
+
+"color_name_new_13": "Blue",
+
+
+
+"color_code_new_13": "#0c2461",
+
+
+
+"use_color_filter_14": true,
+
+
+
+"color_name_new_14": "Kem",
+
+
+
+"color_code_new_14": "#f1a874",
+
+
+
+"use_color_filter_15": false,
+
+
+
+"color_name_new_15": "",
+
+
+
+"color_code_new_15": "#ffffff",
+
+
+
+"use_color_filter_16": false,
+
+
+
+"color_name_new_16": "",
+
+
+
+"color_code_new_16": "#ffffff",
+
+
+
+"use_color_filter_17": false,
+
+
+
+"color_name_new_17": "",
+
+
+
+"color_code_new_17": "#ffffff",
+
+
+
+"use_color_filter_18": false,
+
+
+
+"color_name_new_18": "",
+
+
+
+"color_code_new_18": "#ffffff",
+
+
+
+"use_color_filter_19": false,
+
+
+
+"color_name_new_19": "",
+
+
+
+"color_code_new_19": "#ffffff",
+
+
+
+"use_color_filter_20": false,
+
+
+
+"color_name_new_20": "",
+
+
+
+"color_code_new_20": "#ffffff",
+
+
+
+"use_color_filter_21": false,
+
+
+
+"color_name_new_21": "",
+
+
+
+"color_code_new_21": "#ffffff",
+
+
+
+"use_color_filter_22": false,
+
+
+
+"color_name_new_22": "",
+
+
+
+"color_code_new_22": "#ffffff",
+
+
+
+"use_color_filter_23": false,
+
+
+
+"color_name_new_23": "",
+
+
+
+"color_code_new_23": "#ffffff",
+
+
+
+"use_color_filter_24": false,
+
+
+
+"color_name_new_24": "",
+
+
+
+"color_code_new_24": "#ffffff",
+
+
+
+"use_color_filter_25": false,
+
+
+
+"color_name_new_25": "",
+
+
+
+"color_code_new_25": "#ffffff",
+
+
+
+"use_color_filter_26": false,
+
+
+
+"color_name_new_26": "",
+
+
+
+"color_code_new_26": "#ffffff",
+
+
+
+"use_color_filter_27": false,
+
+
+
+"color_name_new_27": "",
+
+
+
+"color_code_new_27": "#ffffff",
+
+
+
+"use_color_filter_28": false,
+
+
+
+"color_name_new_28": "",
+
+
+
+"color_code_new_28": "#ffffff",
+
+
+
+"use_color_filter_29": false,
+
+
+
+"color_name_new_29": "",
+
+
+
+"color_code_new_29": "#ffffff",
+
+
+
+"use_color_filter_30": false,
+
+
+
+"color_name_new_30": "",
+
+
+
+"color_code_new_30": "#ffffff",
+
+
+
+"use_tag_custom_2": true,
+
+
+
+"tag_title_custom_2": "Kích thước",
+
+
+
+"enter_tag_2": "S,M,L,XL",
+
+
+
+"use_price_filter": true,
+
+
+
+"title_tag_3": "Giá sản phẩm",
+
+
+
+"price_filter_min": "0",
+
+
+
+"price_filter_max": "1000000",
+
+
+
+"price_filter_step": "50000",
+
+
+
+"use_purpose_filter": "1",
+
+
+
+"purpose_title": "",
+
+
+
+"show_collection_image": false,
+
+
+
+"show_logo_bct": true,
+
+
+
+"1_price_to": "500000",
+
+
+
+"2_price_from": "500000",
+
+
+
+"2_price_to": "1000000",
+
+
+
+"3_price_from": "1000000",
+
+
+
+"3_price_to": "1500000",
+
+
+
+"4_price_from": "2000000",
+
+
+
+"4_price_to": "5000000",
+
+
+
+"5_price_from": "5000000",
+
+
+
+"use_info_header": true,
+
+
+
+"info_header": "Liên hệ với Trường An ngay để nhận được nhiều ưu đãi !",
+
+
+
+"block_home_category1_subtitle": "Thư giãn với",
+
+
+
+"block_home_category1_button": "Mua ngay",
+
+
+
+"block_home_category2_subtitle": "Thiết kế hiện đại",
+
+
+
+"block_home_category2_button": "Xem thêm",
+
+
+
+"block_home_category3_subtitle": "Nội Thất Sang Trọng",
+
+
+
+"block_home_category3_title": "Phong Cách Hoàng Gia",
+
+
+
+"block_home_category3_button": "Xem thêm",
+
+
+
+"display_category": true,
+
+
+
+"featured_collection1": "hot-products",
+
+
+
+"featured_collection2": "thoi-trang-nu",
+
+
+
+"featured_collection3": "hot-products",
+
+
+
+"featured_collection4": "onsale",
+
+
+
+"featured_collection5": "",
+
+
+
+"phone_contact_show": true,
+
+
+
+"phone_contact_title": "Hỗ trợ / Mua hàng:",
+
+
+
+"phone_contact_number": "1900 636 099",
+
+
+
+"title_list_col": "Danh mục sản phẩm",
+
+
+
+"show_blog_menu": true,
+
+
+
+"title_blog_menu": "Danh mục blog",
+
+
+
+"blog_menu": "main-menu",
+
+
+
+"show_page_menu": "1",
+
+
+
+"title_page_menu": "Danh mục trang",
+
+
+
+"page_menu": "footer",
+
+
+
+"show_page_banner": "1",
+
+
+
+"page_banner_link": "/",
+
+
+
+"use_category": true,
+
+
+
+"shop_text_hover_color": "#75acec",
+
+
+
+"show_block_home_category": true,
+
+
+
+"use_product_style": "style_01",
+
+
+
+"show_logo_payment": false,
+
+
+
+"logo_payment_height": "45",
+
+
+
+"logo": "https://file.hara.vn/1000113711/file/logo_7a1b7a73a890458eba47d50334562f25.png",
+
+
+
+"favicon": "https://file.hara.vn/1000113711/file/favicon_0264a241ad4a42b3a3912ebc01444768.png",
+
+
+
+"share_fb_home": "https://file.hstatic.net/1000309459/file/share_fb_home_42716858dbba4e88b67dbe485aaa2607.png",
+
+
+
+"slideshow_1": "http://maylambanhmi.vn/upload/hinhanh/5760196686745140.jpg",
+
+
+
+"slideshow_2": "https://file.hstatic.net/1000309459/file/slide02_bf8fd7e060c34bc1874cd7b3fd3cb039.jpg",
+
+
+
+"slideshow_3": "https://file.hstatic.net/1000309459/file/slide03_1c148cbe7a6e4855b3da6397eeec5de1.jpg",
+
+
+
+"slideshow_4": "",
+
+
+
+"block_home_category1": "https://file.hstatic.net/1000309459/file/block_home_category1_11151c09367a4eac875e9603f65c1347.jpg",
+
+
+
+"block_home_category2": "https://file.hstatic.net/1000309459/file/block_home_category2_96b6cc9ea9dc49d399ac478e82901124.jpg",
+
+
+
+"block_home_category3": "https://file.hstatic.net/1000309459/file/block_home_category3_4636fdd8f33142038cb78a693265ff00.jpg",
+
+
+
+"home_about_image": "https://file.hstatic.net/1000309459/file/banner_home_about_b380313ba9cc4d7fbd5d78b06442a8a5.jpg",
+
+
+
+"logo-bct": "https://file.hara.vn/1000113711/file/logo-bct_580132795da142c79ffb89b595168de6.png",
+
+
+
+"collection_banner": "https://file.hstatic.net/1000309459/file/collection_banner_ca4446092b2a4d07bfb258037fdb78aa.jpg",
+
+
+
+"page_banner": "https://file.hstatic.net/1000309459/file/page_banner_02_52807ed026154678a00dc488fd552584.jpg",
+
+
+
+"slideshow_1.jpg": "https://file.hstatic.net/1000397797/file/slideshow_6-min_0fce35aa7c8b475b9d3c73ea17db504c.jpg",
+
+
+
+"logo_bct": "https://file.hstatic.net/1000300454/file/logo_bct_019590229b4c4dfda690236b67f7aff4.png",
+
+
+
+"use_chatbot": true,
+
+
+
+"code_messenger_mb": "108520260558644",
+
+
+
+"addthis_iconList_show": true,
+
+
+
+"addthis_icon1_show": true,
+
+
+
+"addthis_icon1_color1": "#4a90e2",
+
+
+
+"addthis_icon1_color2": "#81b9fa",
+
+
+
+"addthis_icon1_tootlip": "Gọi ngay cho chúng tôi",
+
+
+
+"addthis_icon1_action": "1900636099",
+
+
+
+"addthis_icon2_show": true,
+
+
+
+"addthis_icon2_color1": "#3985f7",
+
+
+
+"addthis_icon2_color2": "#1272e8",
+
+
+
+"addthis_icon2_tootlip": "Chat với chúng tôi qua Zalo",
+
+
+
+"addthis_icon2_action": "//zalo.me/0901866099",
+
+
+
+"addthis_icon3_show": true,
+
+
+
+"addthis_icon3_color1": "#70f3ff",
+
+
+
+"addthis_icon3_color2": "#00dcf0",
+
+
+
+"addthis_icon3_tootlip": "Đăng kí thông tin và để lại lời nhắn",
+
+
+
+"addthis_icon3_title": "Để lại lời nhắn cho chúng tôi",
+
+
+
+"addthis_icon3_title2": "Đăng kí thông tin thành công",
+
+
+
+"addthis_icon3_content": "Cảm ơn bạn đã để lại thông tin <br> Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất\t",
+
+
+
+"addthis_icon4_show": true,
+
+
+
+"addthis_icon4_color1": "#f5ae16",
+
+
+
+"addthis_icon4_color2": "#d99009",
+
+
+
+"addthis_icon4_tootlip": "Xem địa chỉ doanh nghiệp",
+
+
+
+"addthis_icon4_action": "/pages/lien-he",
+
+
+
+"link_logo_bct": "/",
+
+
+
+"promotion_hrvapp_use": false,
+
+
+
+"promotion_hrvapp": "appbuyxgety",
+
+
+
+"appbuyxgety_icon": "https://file.hstatic.net/1000308580/file/icon-gifbox_21127e78739a40a28f058e5e123d41b1.png",
+
+
+
+"popup_contact_show": true,
+
+
+
+"popup_contact_select": "popupForm",
+
+
+
+"popup_contact_banner": "https://file.hstatic.net/1000309459/file/popup_2_0296fb28fa6c4410931d7b5c221e5d73.jpg",
+
+
+
+"popup_contact_alt": "Ưu đãi của chúng tôi",
+
+
+
+"popup_contact_link": "/collections/all",
+
+
+
+"popup_contact_bkg": "https://file.hstatic.net/1000309459/file/popup_1_98b2b6824a3a489fadf30ca8c1b2118e.jpg",
+
+
+
+"popup_contact_title": "Đăng kí nhân tin",
+
+
+
+"popup_contact_content": "Chúng tôi sẽ cập nhật các chương trình khuyến mãi đến bạn.",
+
+
+
+"popup_contact_description_1": "Giảm giá sản phẩm",
+
+
+
+"popup_contact_description_2": "Sản phẩm mới",
+
+
+
+"popup_contact_description_3": "Sản phẩm bán chạy",
+
+
+
+"hottline_mb": "1900.636.099",
+
+
+
+"email_mb": "kinhdoanh@maylambanhmi.vn",
+
+
+
+"policy_cart_title": "Chính sách mua hàng",
+
+
+
+"policy_cart_1": "Sản phẩm được đổi 1 lần duy nhất, không hỗ trợ trả.",
+
+
+
+"policy_cart_2": "Sản phẩm còn đủ tem mác, chưa qua sử dụng.",
+
+
+
+"policy_cart_3": "Sản phẩm nguyên giá được đổi trong 30 ngày trên toàn hệ thống",
+
+
+
+"policy_cart_4": "Sản phẩm sale chỉ hỗ trợ đổi size (nếu cửa hàng còn) trong 7 ngày trên toàn hệ thống.",
+
+
+
+"featured_collection1_banner": "https://file.hstatic.net/1000300454/file/banne_becdbfb37af140b78bea960cf23b8340.jpg",
+
+
+
+"featured_collection2_banner": "",
+
+
+
+"featured_collection3_banner": "",
+
+
+
+"featured_collection4_banner": "",
+
+
+
+"featured_collection5_banner": "",
+
+
+
+"collection_one_limit": "6",
+
+
+
+"collection_two_limit": "10",
+
+
+
+"home_category_1_show": true,
+
+
+
+"home_category_1_banner": "https://file.hstatic.net/1000309459/file/bannerh01_5ba6f27aca5e493483ca4f297271b602.jpg",
+
+
+
+"home_category_1_alt": "banner 1",
+
+
+
+"home_category_1_link": "/collections/all",
+
+
+
+"home_category_2_show": true,
+
+
+
+"home_category_2_banner": "https://file.hstatic.net/1000309459/file/bannerh02_c2138c3002ba4e0896ae9aa3b981bd92.jpg",
+
+
+
+"home_category_2_alt": "Sofa hiện đại",
+
+
+
+"home_category_2_link": "/collections/all",
+
+
+
+"home_category_3_show": true,
+
+
+
+"home_category_3_banner": "https://file.hstatic.net/1000309459/file/bannerh03_26b919c821c14ca482dc0a67515f234a.jpg",
+
+
+
+"home_category_3_alt": "Phụ kiện trang trí",
+
+
+
+"home_category_3_link": "/collections/all",
+
+
+
+"home_category_4_show": true,
+
+
+
+"home_category_4_banner": "https://file.hstatic.net/1000309459/file/bannerh04_83bc60fdfacc4c21bcc4b86f9184feac.jpg",
+
+
+
+"home_category_4_alt": "Sản phẩm mới",
+
+
+
+"home_category_4_link": "/collections/all",
+
+
+
+"home_category_5_show": true,
+
+
+
+"home_category_5_banner": "https://file.hstatic.net/1000309459/file/bannerh05_4f1c340a8ff94fbbbc1464a0ac263960.jpg",
+
+
+
+"home_category_5_alt": "Trang trí phòng tắm",
+
+
+
+"home_category_5_link": "/collections/all",
+
+
+
+"header_home_selected": "header_style1",
+
+
+
+"header_01_topbar_bkg": "#4a90e2",
+
+
+
+"header_01_topbar_text": "#ffffff",
+
+
+
+"header_01_color_bkg": "#ffffff",
+
+
+
+"header_01_color_text": "#252a2b",
+
+
+
+"header_02_topbar_bkg": "#9c4533",
+
+
+
+"header_02_topbar_text": "#ffffff",
+
+
+
+"header_02_color_bkg": "#ffffff",
+
+
+
+"header_02_color_text": "#252a2b",
+
+
+
+"header_03_topbar_bkg": "#9c4533",
+
+
+
+"header_03_topbar_text": "#ffffff",
+
+
+
+"header_03_color_bkg": "#ffffff",
+
+
+
+"header_03_color_text": "#252a2b",
+
+
+
+"header_03_color_hover": "#ffffff",
+
+
+
+"header_01_color_light": "#3c64e8",
+
+
+
+"header_02_color_hover": "#9c4533",
+
+
+
+"home_category_1_title": "Phòng khách tối giản",
+
+
+
+"home_category_2_title": "Sofa hiện đại",
+
+
+
+"home_category_3_title": "Phụ kiện trang trí",
+
+
+
+"home_category_4_title": "Sản phẩm mới",
+
+
+
+"home_category_5_title": "Trang trí phòng tắm",
+
+
+
+"popup_contact_time": "5",
+
+
+
+"banner_title_color": "#ffffff",
+
+
+
+"banner_btn_color": "#ffffff",
+
+
+
+"banner_btntext_color": "#252525"
+
+
+}
+
+}
+}

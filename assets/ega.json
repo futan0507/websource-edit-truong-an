@@ -1,0 +1,10 @@
+{
+    "version": "1",
+    "packages": {
+        "haravan-egany-tools": "2.0.0",
+        "haravan-better-page": "1.0.0"
+    },
+    "pages": {},
+    "blogs": {},
+    "articles": {}
+}
