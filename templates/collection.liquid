@@ -1,0 +1,130 @@
+<div id="collection" class="collection-page">
+	{% paginate collection.products by settings.pagination_limit %}
+	<div class="breadcrumb-shop">
+		<div class="container-fluid">
+			<div class="row">{%include 'breadcrumb'%}	</div>
+		</div>
+	</div>
+	{% if settings.show_collection_image%}	
+	<div class=" banner-collection-header">
+		{% if collection.image != blank %}
+		<img src="{{ collection.image.src }}" alt="{{collection.title}}"/>
+		{% else %}
+		<img src="{{ settings.collection_banner }}" alt="{{collection.title}}"/>
+		{% endif %}
+	</div>	
+	{% endif %}
+	<div class="main-content ">
+		<div class="container-fluid">
+			<div class="row">
+				<div id="collection-body" class="wrap-collection-body clearfix">
+			
+					<div class="{% if check_menu %}col-md-12{% else %}col-md-12{% endif %} col-sm-12 col-xs-12">
+						<div class="wrap-collection-title row">
+							<div class="heading-collection row">
+								<div class="col-md-8 col-sm-12 col-xs-12">
+									<h1 class="title">
+										{%if collection.handle == 'all'%}Tất cả sản phẩm{%else%}{{collection.title}}{%endif%}
+									</h1>
+									{% if collection.products.size == 0%}
+									<div class="alert-no"><p>Chưa có sản phẩm nào trong danh mục này</p></div>
+									{% else %}
+									<div class="alert-no-filter"></div>		
+									{% endif %}
+								</div>
+								{% if  settings.collection_sort and collection.products_count > 0 %}
+								<div class="col-md-4 hidden-sm hidden-xs">
+									<div class="option browse-tags">
+										<label class="lb-filter hide" for="sort-by">Sắp xếp theo:</label>
+										<span class="custom-dropdown custom-dropdown--grey">
+											<select class="sort-by custom-dropdown__select">
+												{% unless collection.handle == 'all' %}									
+												<option value="manual">Sản phẩm nổi bật</option>
+												{% endunless %}
+												<option value="price-ascending" data-filter="&sortby=(price:product=asc)">Giá: Tăng dần</option>
+												<option value="price-descending" data-filter="&sortby=(price:product=desc)">Giá: Giảm dần</option>
+												<option value="title-ascending" data-filter="&sortby=(title:product=asc)">Tên: A-Z</option>
+												<option value="title-descending" data-filter="&sortby=(price:product=desc)">Tên: Z-A</option>
+												<option value="created-ascending" data-filter="&sortby=(updated_at:product=desc)">Cũ nhất</option>
+												<option value="created-descending" data-filter="&sortby=(updated_at:product=asc)">Mới nhất</option>
+												<option value="best-selling" data-filter="&sortby=(sold_quantity:product=desc)">Bán chạy nhất</option>
+												<option value="quantity-descending" >Tồn kho: Giảm dần</option>
+											</select>
+										</span>
+									</div>
+								</div>
+								{% endif %}
+							</div>
+						</div>
+						{%if collection.products.size > 0%}
+						<div class="row filter-here">
+							<div class="content-product-list product-list filter clearfix">
+								{% for product in collection.products limit: settings.pagination_limit  %}
+								<div class="col-md-3 col-sm-6 col-xs-6 pro-loop {% if check_menu %}col-4{%else%}col-5{%endif%}">
+									{% include 'product-loop' with collection.handle %}
+								</div>
+								{% endfor %}	
+							</div>				
+							<div class="sortpagibar pagi clearfix text-center">
+								{%include 'pagination-default'%}
+							</div>
+						</div>
+						{%endif%}	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{% endpaginate %}
+	<input type="text" class="hidden" id="coll-handle" value="{% if collection.handle == 'all' %}(collectionid:product>0){% else %}(collectionid:product={{collection.id}}){% endif %}" />
+</div>
+<script>
+Haravan.queryParams = {};
+if (location.search.length) {
+	for (var aKeyValue, i = 0, aCouples = location.search.substr(1).split('&'); i < aCouples.length; i++) {
+		aKeyValue = aCouples[i].split('=');
+		if (aKeyValue.length > 1) {
+			Haravan.queryParams[decodeURIComponent(aKeyValue[0])] = decodeURIComponent(aKeyValue[1]);
+		}
+	}
+}
+var collFilters = jQuery('.coll-filter');
+collFilters.change(function() {
+	var newTags = [];
+	var newURL = '';
+	delete Haravan.queryParams.page;
+	collFilters.each(function() { 
+		if (jQuery(this).val()) {
+			newTags.push(jQuery(this).val());
+		}
+	});
+	{% if collection.handle %}
+	newURL = '/collections/' + '{{ collection.handle }}';
+	 if (newTags.length) {
+		 newURL += '/' + newTags.join('+');
+	 }
+	 var search = jQuery.param(Haravan.queryParams);
+	 if (search.length) {
+		 newURL += '?' + search;
+	 }
+	 location.href = newURL;    
+	 {% else %}
+	 if (newTags.length) {
+		 Haravan.queryParams.constraint = newTags.join('+');        
+	 }
+		else {
+			delete Haravan.queryParams.constraint;
+		}
+		location.search = jQuery.param(Haravan.queryParams);
+		{% endif %}      
+		});
+		jQuery('.sort-by')
+		.val('{{ collection.sort_by | default: collection.default_sort_by  }}')
+		.bind('change', function() {
+			Haravan.queryParams.sort_by = jQuery(this).val();
+			location.search = jQuery.param(Haravan.queryParams);
+		});
+		</script>
+
+
+

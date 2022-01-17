@@ -1,0 +1,209 @@
+{%layout 'en'%}
+{% paginate collection.products by settings.en_pagination_limitx %}
+{%include 'section2_en'%}
+{%if settings.en_danhmdacbiet%}
+
+<section class="panel panel-categories bg-light-white">
+	<div class="inner">
+		<div class="list">
+			<div class="item item-title">
+			<h3>{{settings.en_tieudecolldb}}</h3>
+				<p>{{settings.en_noidungcoldb}}</p>
+				<a href="{{settings.en_tieudecolldblink}}" id="view-all-products" class="btn btn-link btn-green">{{settings.en_tieudennut}}</a>
+				</div>
+			<div class="item item-list" >
+				<div class="ul-list owl-carousel owl-theme">
+						{%for link in linklists[settings.en_tieudecolldblinkmenu].links%}
+
+					{% assign twoprod = forloop.index | modulo: 2 %}
+					{% if twoprod == 1 %}
+					<div class="item">
+						{% endif %}
+						<div class="item-inner">
+
+							<a href="{{link.url}}">
+								<div class="wrap">
+									<div class="img bg" style="background-image: url({{link.object.image.src}})"> 
+
+									</div>
+								</div>
+								<div class="des">
+									<p>{{link.title}}</p>
+									<span class="icn icn-arr-right">&nbsp;</span>
+								</div>
+							</a>
+
+						</div>
+						{% if twoprod == 0 or forloop.index == 30 %}									
+					</div>
+					{% endif %}
+
+
+					{%endfor%}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{%endif%}
+
+<section id="all-products" class="panel panel-list-of-products">
+	<div class="inner">
+		<div class="list">
+			{% for product in collection.products  %}
+			<div class="item">
+				<a href="{{product.url}}">
+					<h3>{{product.title}}</h3>
+				</a>
+				<div class="img-list">
+					<div class="img-left">
+						<a href="{{product.url}}">
+							<div class="img bg" style="background-image: url({{ product.featured_image.src | product_img_url: 'large' }});    background-size: contain;"></div>
+						</a>
+					</div>
+					<div class="img-right">
+						<div class="img bg" style="background-image: url({{ product.images[1].src | product_img_url: 'large' }});"> <span class="overlay">&nbsp;</span></div>
+						<div class="img bg on" style="background-image: url({{ product.images[2].src | product_img_url: 'large' }});"> <span class="overlay">&nbsp;</span></div>
+					</div>
+				</div>
+				<div class="des">
+					<a href="{{product.url}}">
+						<h3>{{product.title}}</h3>
+					</a>
+					<p>{{product.description|truncatewords:15 | strip_html}}</p>
+					<a href="{{product.url}}" class="btn btn-link btn-green">See more</a>
+				</div>
+			</div>
+			{%endfor%}
+		</div>
+	{%include 'phantrang'%}
+	</div>
+</section>
+
+{%endpaginate%}
+
+
+<script>
+	$(document).ready(function(){
+		if($(".ul-list li").length < 8){
+			$(".btn-more").parent().hide();
+		}
+
+		$(".btn-more").click(function(e){
+			e.preventDefault();
+			$(this).parent().hide();
+			$(".item.item-list").addClass("noheight");
+		})
+	})
+</script>
+
+
+
+
+
+<script>
+	$(document).ready(function(){
+
+		$('.ul-list.owl-carousel').owlCarousel({
+			loop:true,
+			margin:10,
+			nav:true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:4
+				}
+			}
+		})
+
+		if($(".ul-list li").length < 8){
+			$(".btn-more").parent().hide();
+		}
+
+		$(".btn-more").click(function(e){
+			e.preventDefault();
+			$(this).parent().hide();
+			$(".item.item-list").addClass("noheight");
+		})
+	})
+</script>
+<style>
+	.panel.panel-categories .item:last-child {
+		width: 100%;
+	}
+	.panel.panel-categories .item .des {
+		width: 100%;
+		padding: 5px 0;
+		z-index: 2;
+		position: relative;
+	}
+	.panel-categories .owl-prev{
+		position: absolute;
+		background: #fff !important;
+		width: 30px;
+		top: 40%;
+		transform: translateY(-50%);
+		left: 0px;
+
+	}
+	.panel-categories .owl-next{
+		position: absolute;
+		background: #fff !important;
+		width: 30px;
+		top: 40%;
+		transform: translateY(-50%);
+		right: 0px;
+
+	}
+	.panel-categories .owl-prev span,
+	.panel-categories .owl-next span{
+		font-size: 39px;
+	}
+	.panel.panel-categories .item .ul-list{
+		margin:0
+	}
+	.panel.panel-categories .item:first-child {
+		padding-right: 0;
+	}
+	.item.item-list{
+		position:relative;
+	}
+	.owlpre{
+		position: absolute;
+		right: 49px;
+		top: -32px;
+	}
+	.panel.panel-categories .item .des p {
+		text-align: center;
+		display: block;
+		width: 100%;
+	}
+	@media (max-width:767px){
+		.panel.panel-categories .item:last-child {
+			width: 100%;
+			display: block;
+		}
+		.panel.panel-categories .item:last-child a{
+			display: block;
+		}
+		.panel.panel-categories .item:last-child .wrap {
+			width: 100%;
+		}
+		.item-inner{
+			margin-bottom:20px
+		}
+		.panel.panel-categories .item:first-child {
+			display: block;
+		}
+	}
+
+</style>
+
+
+

@@ -1,0 +1,93 @@
+{% layout none %}
+<!doctype html>
+<html ⚡>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			{{ page_title }}{% if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif %}{% if current_page != 1 %} &ndash; Page {{ current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+		</title>
+		{% if page_description %}
+		<meta name="description" content="{{ page_description | strip_html | strip_newlines }}" />
+		{% endif %}
+		<link rel="canonical" href="{{ canonical_url }}?view=amp" />
+		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" href="{{ settings.favicon }}" type="image/png" />
+		<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+		{% include 'css-amp' %}
+		{% include 'js-amp' %}
+	</head>
+	<body>
+		<h1 class="hidden">{{shop.name}}</h1>
+		{% include 'header-amp' %}
+		<main>
+			{% if settings.slide_1 != false or settings.slide_2 != false or settings.slide_3 != false or settings.slide_4 != false %}
+			<section class="slide">
+				<div id="home-slider">
+					<amp-carousel id="homepage_slider" layout="responsive" type="slides" height="760" width="1920">
+						{% for i in (1..4) %}
+						{% capture show_slide %}slide_{{ i }}{% endcapture %}
+						{% capture image %}slideshow_{{ i }}{% endcapture %}
+						{% assign setImg = settings[image] %}
+						{% capture link %}slide_{{i}}_link{% endcapture %}
+						{% capture alt %}slide_{{i}}_alt{% endcapture %}
+						{% if settings[show_slide] %}
+						<div class="item">
+							<a class="my0 mx-auto" href="{{ settings[link] }}?view=amp">
+								<amp-img width="1920" height="760" layout="responsive" title="{{ settings[alt] }}" alt="{{ settings[alt] | escape }}" src="{{ setImg }}"></amp-img>
+							</a>
+						</div>
+						{% endif %}
+						{% endfor %}
+					</amp-carousel>  
+				</div>
+			</section>
+			{% endif %}
+			<section>
+				<div class="section section-collection wrapper-collection-1">
+					<div class="wrapper-heading-home text-center">
+						<h2>
+							<a href="{{collections[settings.collection_one].url}}?view=amp">
+								{% if settings.heading_collection_one  == '' %}
+								{{collections[settings.collection_one].title}}
+								{% else %}
+								{{settings.heading_collection_one}}
+								{% endif %}
+							</a>
+						</h2>
+					</div>
+					<div class="product-lists clearfix">
+						{% for product in collections[settings.collection_one].products limit: 10 %}
+						<div class="col-one pro-loop">
+							{% include 'product-loop-amp'%}
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+				<div class="section section-collection wrapper-collection-2">		
+					<div class="wrapper-heading-home text-center">
+						<h2>
+							<a href="{{collections[settings.collection_two].url}}?view=amp">
+								{% if settings.heading_collection_two  == '' %}
+								{{collections[settings.collection_two].title}}
+								{% else %}
+								{{settings.heading_collection_two}}
+								{% endif %}
+							</a>
+						</h2>
+					</div>
+					<div class="product-lists clearfix">
+						{% for product in collections[settings.collection_one].products limit: 10 %}
+						<div class="col-one pro-loop">
+							{% include 'product-loop-amp'%}
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+		</main>
+		{% include 'footer-amp' %}
+	</body>
+</html>
+

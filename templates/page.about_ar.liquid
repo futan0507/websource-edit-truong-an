@@ -1,0 +1,145 @@
+{%layout 'ar'%}
+
+<section class="banner banner-page">
+	<div class="img bg" style="background-image: url({{settings.ar_imageabout}});"> <span class="overlay">&nbsp;</span></div>
+	<div class="des">
+		<h1>{{page.title}}</h1>
+	</div>
+</section>
+
+
+
+<section class="panel panel-rich-text">
+	<div class="inner">
+		<div class="group">
+			{{settings.ar_noidungabout1}}
+
+			<div class="with-bg">
+				<div class="with-bg-wrap">
+					<div class="img bg" style="background-image: url({{settings.ar_imgss2}})"> <span class="overlay">&nbsp;</span></div>
+					<div class="with-bg-ctn">
+						<p class="sub-title">{{settings.ar_abtitle1}}</p>
+						<h2>{{settings.ar_abtit2}}</h2>
+						<div class="list">
+							<div class="item">
+								<div class="box box-white">
+									<div class="box-ctn">
+										<img src="{{settings.ar_imgss2box1}}">
+										{%assign x = settings.ar_abtitle1box1 | split:'||'%}
+										<p class="txt">{{x[0]}}</p>
+										<div class="des">
+											<p>{{x[1]}}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="box box-white">
+									<div class="box-ctn">
+										<img src="{{settings.ar_imgss2box2}}">
+										{%assign x = settings.ar_abtitle1box2 | split:'||'%}
+										<p class="txt">{{x[0]}}</p>
+										<div class="des">
+											<p>{{x[1]}}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="box box-white">
+									<div class="box-ctn">
+										<img src="{{settings.ar_imgss2box3}}">
+										{%assign x = settings.ar_abtitle1box3 | split:'||'%}
+										<p class="txt">{{x[0]}}</p>
+										<div class="des">
+											<p>{{x[1]}}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="note">
+				<p><span style="font-weight: 400;">
+					{{settings.ar_abtitle1box3noidung}}
+
+					</span></p>
+			</div>
+		</div>
+		{%if settings.ar_imgss3show%}
+		<div class="group">
+			<p class="sub-title">{{settings.ar_abtitles3}} </p>
+			<h2>{{settings.ar_abtits3}}</h2>
+			<div class="with-list">
+				<div class="list">
+
+
+					{%for i in (1..4)%}
+					{%capture icon%}ar_box3icon{{i}}{%endcapture%}
+					{%capture title%}ar_box3icontitle{{i}}{%endcapture%}
+					{%capture content%}ar_box3iconcontent{{i}}{%endcapture%}
+					<div class="item">
+						<div class="box">
+							<img src="{{settings[icon]}}" alt="Purpose &amp; Goals">
+							<p class="txt">{{settings[title]}}</p>
+							<p>{{settings[content]}}</p>
+						</div>
+					</div>
+					{%endfor%}
+				</div>
+			</div>
+		</div>
+		{%endif%}
+
+		{%if settings.ar_imgss4show%}
+		<div class="group group-highlight">
+			<p class="sub-title">{{settings.ar_abtitles4}}</p>
+			<h2>{{settings.ar_abtits4}}</h2>
+			<div class="des">
+
+				<div>	{{pages[settings.ar_abtits4page].content}}</div>
+				<a href="{{settings.ar_abtits4link}}" data-highlight-element="" class="read-more"><span class="icn icn-left">&nbsp;</span><span class="txt">Xem thêm</span> <span class="icn icn-right">&nbsp;</span></a>
+			</div>
+		</div>
+		{%endif%}
+
+		{%if settings.ar_imgss5show%}
+		<div class="group">
+			<p class="sub-title">{{settings.ar_abtitles5}}</p>
+			<h2>{{settings.ar_abtits5}}</h2>
+			<div class="map">
+				<div class="zoom" style="position: relative; overflow: hidden;">
+					<picture>
+						<source media="(max-width:767px)" srcset="{{settings.ar_abtits5linkmobile}}">
+						<source media="(min-width:768px)" srcset="{{settings.ar_abtits5link}}">
+						<img src="{{settings.ar_abtits5link}}" alt="Flowers" style="width:auto;">
+					</picture>
+
+				</div>
+			</div>
+		</div>
+		{%endif%}
+
+		{%include 'timeline_ar'%}
+	</div>
+</section>
+
+
+<style>
+	.box-ctn img{
+		margin-bottom: 44px;
+
+		max-width:50px;
+	}
+	
+	.with-bg-wrap .box:hover .des{
+		display:block !important;
+		 margin-top: -35px;
+		transition:0.7s ease;
+	}
+	.with-bg-wrap  .box:hover .txt{
+		display:none !important;
+	}
+</style>.
