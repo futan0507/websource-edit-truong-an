@@ -1,0 +1,37 @@
+	<div class="header-upper-middle">
+		<div class="container-fluid">
+			<div class="flexContainer-header">
+				<div class="col-md-4 header-upper-navbar">
+					<div class="visible-sm visible-xs">
+						{%- if template contains 'product'-%}
+						<div class="header-action header-action_backlink "> 
+							<a id="backto-page" href="javascript:void(0);" aria-label="Trở về">
+								<i class="fa fa-angle-left" aria-hidden="true"></i>
+							</a>
+						</div>
+						{%- endif -%}
+						<div class="header-action header-action_menu ">							
+							<div class="header-action_text">
+								<a class="header-action__link header-action-toggle"  href="javascript:void(0)"  id="site-menu-handle"  aria-label="Menu" title="Menu">
+									<span class="hamburger-menu "  aria-hidden="true">
+										<span class="bar"></span>
+									</span>
+								</a>
+							</div>
+							<div class="header-action_dropdown">
+								<span class="box-triangle">
+									<svg viewBox="0 0 20 9" role="presentation">
+										<path d="M.47108938 9c.2694725-.26871321.57077721-.56867841.90388257-.89986354C3.12384116 6.36134886 5.74788116 3.76338565 9.2467995.30653888c.4145057-.4095171 1.0844277-.40860098 1.4977971.00205122L19.4935156 9H.47108938z" fill="#ffffff"></path>
+									</svg>
+								</span>
+								<div class="header-dropdown_content">
+									{% include 'menu-mobile_en' %}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>

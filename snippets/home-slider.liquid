@@ -1,0 +1,54 @@
+{% if settings.slide_1 != false or settings.slide_2 != false or settings.slide_3 != false or settings.slide_4 != false %}
+<div id="home-slider">
+	<div id="homepage_slider" class="owl-carousel owl-theme">
+		{% for i in (1..4) %}
+		{% capture show_slide %}slide_{{ i }}{% endcapture %}
+		{% capture image %}slideshow_{{ i }}{% endcapture %}
+		{% assign setImg = settings[image] %}
+		{% capture link %}slide_{{i}}_link{% endcapture %}
+		{% capture alt %}slide_{{i}}_alt{% endcapture %}
+		{% if settings[show_slide] %}
+		<div class="item ">
+			<a class="ratiobox" href="{{ settings[link] }}" title="{{ settings[alt] }}" aria-label="Banner {{i}}">
+				{% if forloop.first %}
+				<picture>
+					<source media="(max-width: 480px)" srcset="{{ setImg | img_url: 'large'  }}">
+					<source media="(min-width: 481px)" srcset="{{ setImg }}">
+					<img class="realimage" src="{{ setImg }}" alt="{{ settings[alt] | escape }}" >
+				</picture>		
+				{% else %}
+				<picture>
+					<source class="owl-lazy" media="(max-width: 480px)" data-srcset="{{ setImg | img_url: 'large'  }}"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+					<source class="owl-lazy"  media="(min-width: 481px)" data-srcset="{{ setImg }}"
+									srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
+					<img class="owl-lazy"   data-src="{{ setImg }}" 
+							 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+							 alt="{{ settings[alt] | escape }}" >
+				</picture>	
+					{% endif %}
+			</a>
+		</div>
+		{% endif %}
+		{% endfor %}
+	</div>  
+</div>
+{% endif %}
+
+
+<script>
+	$(document).ready(function(){
+		setTimeout(function(){
+			var height = $(".realimage").height();
+		$(".banner.hero-banner").height(height)
+		},300)
+		
+		
+	})
+	
+</script>
+
+
+
+
+

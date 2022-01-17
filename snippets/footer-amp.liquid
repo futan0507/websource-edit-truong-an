@@ -1,0 +1,51 @@
+<footer>
+	<div class="footer-top">
+		<div class="menuColumn clearfix">
+			<div class="colCustom col-one">
+				<h3>{{settings.footer1_title}}</h3>
+				<div class="footer-content">
+					<p>{{settings.footer1_information}}</p>
+					{% if settings.show_logo_bct %}
+					<div class="logo-footer">
+						<a class="iconBCT" href="{{ settings.link_logo_bct }}" rel="nofollow">
+							<amp-img width="150" height="56" layout="fixed" src="{{ settings.logo_bct }}" alt="Logo Bộ Công Thương"></amp-img>
+						</a>
+					</div>
+					{% endif %}
+				</div>
+			</div>
+			<div class="colCustom col-one">
+				<h3>{{settings.footer_link1_title}}</h3>
+				<ul>
+					{% for link in linklists[settings.footer_link1_menu].links %}
+					<li><a href="{{ link.url }}?view=amp">{{ link.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="colCustom col-one footer-contact">
+				<h3>{{settings.footer2_title}}</h3>
+				<ul>
+					<li class="contact-1">{{settings.footer-address}}</li>
+					<li class="contact-2">{{settings.footer-tell}}</li>
+					<li class="contact-3">{{settings.footer-fax}}</li>
+					<li class="contact-4">{{settings.footer-email}}</li>
+				</ul>	
+			</div>
+		</div>
+	</div>
+	<div class="footerBottom clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-one">
+					{{ settings.footer_info }}
+				</div>
+				<div class="col-one text-center">
+					<p>Copyright © {{ "now" | date: "%Y" }} <a href="{{ shop.url }}?view=amp"> {{ shop.name }}</a>. {{ powered_by_link }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+

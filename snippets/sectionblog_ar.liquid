@@ -1,0 +1,74 @@
+{%if settings.ar_use_collection_one_products%}
+<section class="slider slider-activities">
+	<div class="inner">
+		<div class="top">
+			<h2>{{settings.ar_heading_collection_one}}</h2>
+			<div class="ctr"> <a href="#" class="btn btn-slider js-activities-prev slick-arrow" aria-disabled="false" style=""></a> <a href="#" class="btn btn-slider js-activities-next slick-arrow" style="" aria-disabled="false"></a></div>	</div>
+		<div class="list js-activities slick-slider">
+			{%for article in blogs[settings.ar_bloghome].articles%}
+			{% assign imgurl = article.image.src | img_url: 'large' %}
+			
+			<div>
+				<div class="item" >
+					<a href="{{article.url}}" class="item-ctn" tabindex="0">
+						<p class="post-date">	{{ article.published_at | date: '%d.%m.%Y' }}</p>
+						<p class="heading">	{{ article.blog.title }}</p>
+						<div class="des">
+							<div class="img bg" style="background-image: url({{imgurl}});"> <span class="overlay">&nbsp;</span></div>
+							<p class="txt-title">{{article.title}}</p>
+							<p class="txt-des">{{article.content | strip_html | truncatewords:30}}</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		
+			{%endfor%}
+
+
+		</div>
+	</div>
+</section>
+<script>
+
+	$(document).ready(function(){
+		$('.slider-activities .slick-slider').slick({
+			slidesToShow: 5,
+			autoplay: true,
+			autoplaySpeed: 6000,
+			dots:false,
+			arrows: true,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 5,
+
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			],
+
+			prevArrow: $('.slider-activities .js-activities-prev'),
+			nextArrow: $('.slider-activities .js-activities-next'),
+		});
+	})
+
+</script>
+
+
+{%endif%}
+
+

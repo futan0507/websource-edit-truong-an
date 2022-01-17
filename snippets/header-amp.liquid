@@ -1,0 +1,47 @@
+<header class="ampstart-headerbar header-fixed flex justify-start items-center">
+	<div class="ampstart-navbar-trigger" on="tap:header-sidebar.toggle" role="button" tabindex="0"><i class="fa fa-bars"></i></div>
+	<div class="logo">
+		{% if settings.use_logo %}
+		<a class="my0 mx-auto" href="/?view=amp">
+			<amp-img width="200" height="51" layout="fixed" src="{{ settings.logo }}"></amp-img>
+		</a>
+		{% else %}
+		<a href="/?view=amp">{{ shop.name }}</a>
+		{% endif %}
+	</div>
+</header>
+<amp-sidebar id="header-sidebar" layout="nodisplay" side="right">
+	<ul class="menu-amp">
+		{% for link in linklists[settings.mainmenu_link].links %}
+		{% if linklists[link.handle] == empty %}
+		<li>
+			<a href="{{ link.url }}?view=amp" class="{% if link.active %} current{% endif %}" title="{{link.title}}">
+				<span>{{ link.title }}</span>
+			</a>
+		</li>
+		{% else %}
+		<li class="dropdown">
+			<a href="{{ link.url }}?view=amp" title="{{link.title}}" class="{% if link.active  %} current{% endif %}">
+				<span>{{ link.title }}</span>
+			</a>
+			<ul class="dropdown-menu" role="menu">
+				{% for l in linklists[link.handle].links %}
+				<li>
+					<a href="{{ l.url }}?view=amp"{% if l.active %} class="current"{% endif %} title="{{l.title}}">{{ l.title }}</a>
+					{%if linklists[l.handle].links.size > 0%}
+					<ul class="dropdown-menu">
+						{% for ll in linklists[l.handle].links %}
+						<li>
+							<a href="{{ ll.url }}?view=amp"{% if ll.active %} class="current"{% endif %} title="{{ll.title}}">{{ ll.title }}</a>
+						</li>
+						{%endfor%}
+					</ul>
+					{%endif%}
+				</li>
+				{% endfor %}
+			</ul>
+		</li>
+		{% endif %}
+		{% endfor %}
+	</ul>
+</amp-sidebar>

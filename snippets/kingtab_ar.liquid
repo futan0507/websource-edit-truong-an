@@ -1,0 +1,173 @@
+
+<div class="kingOftab">
+
+	<div class="listOftab">
+		<div class="flextab">
+			<div class="active"><a datatab="kingof1" href="">{{settings.ar_mymota1}}</a></div>
+
+			{% assign tabs = product.metafields.hrvptabs.tabs %} 
+			{% if tabs %} 
+			{% assign tabList = tabs | append: '' | split: '@@###@@' %} 
+
+			{% for tab in tabList offset:1 limit : 1%} 
+			{% assign tabContent = tab | split: '@@##@@' | last %} 
+			<div><a href="" datatab="kingof2">{{settings.ar_mymotatab1}}</a></div>
+			{% endfor %} 
+
+			{% endif %} 
+
+			{% if tabs %} 
+			{% assign tabList = tabs | append: '' | split: '@@###@@' %} 
+
+			{% for tab in tabList offset:2 limit : 1%} 
+			{% assign tabContent = tab | split: '@@##@@' | last %} 
+			<div><a href="" datatab="kingof3">{{settings.ar_mymotatab2}}</a></div>
+			{% endfor %} 
+
+			{% endif %} 
+			{% if tabs %} 
+			{% assign tabList = tabs | append: '' | split: '@@###@@' %} 
+
+			{% for tab in tabList offset:3 limit : 1%} 
+			{% assign tabContent = tab | split: '@@##@@' | last %} 
+			<div><a href="" datatab="kingof3">{{settings.ar_mymotatab3}}</a></div>
+			{% endfor %} 
+
+			{% endif %} 
+{% if tabs %} 
+			{% assign tabList = tabs | append: '' | split: '@@###@@' %} 
+
+			{% for tab in tabList offset:4 limit : 1%} 
+			{% assign tabContent = tab | split: '@@##@@' | last %} 
+			<div><a href="" datatab="kingof3">{{settings.ar_mymotatab4}}</a></div>
+			{% endfor %} 
+
+			{% endif %} 
+
+		</div>
+	</div>
+
+	<div class="tabOflingcontent">
+
+		<div datatab="kingof1" class="kingnoidung1 myofblock active">
+			{{product.description}}
+		</div>
+		<div datatab="kingof2" class="kingnoidung2 myofblock">
+			{% assign tabs = product.metafields.hrvptabs.tabs %} 
+			{% if tabs %} 
+			{% assign tabList = tabs | append: '' | split: '@@###@@' %} 
+			<div class="hrvproduct-tabs"> 
+				{% for tab in tabList offset:1 limit : 1%} 
+				{% assign tabContent = tab | split: '@@##@@' | last %} 
+				{{ tabContent }} 
+				{% endfor %} 
+			</div> 
+			{% endif %} 
+
+		</div>
+		<div  datatab="kingof3" class="kingnoidung3 myofblock">
+			{% if tabs %} 
+
+			<div class="hrvproduct-tabs"> 
+				{% for tab in tabList offset:2 limit : 1%} 
+				{% assign tabContent = tab | split: '@@##@@' | last %} 
+				{{ tabContent }} 
+				{% endfor %} 
+			</div> 
+			{% endif %} 
+		</div>
+		<div datatab="kingof4" class="kingnoidung4 myofblock">
+			{% if tabs %} 
+
+			<div class="hrvproduct-tabs"> 
+				{% for tab in tabList offset:3 limit : 1%} 
+				{% assign tabContent = tab | split: '@@##@@' | last %} 
+				{{ tabContent }} 
+				{% endfor %} 
+			</div> 
+			{% endif %} 
+		</div>
+		<div  datatab="kingof5" class="kingnoidung5 myofblock">
+			{% if tabs %} 
+
+			<div class="hrvproduct-tabs"> 
+				{% for tab in tabList offset:4 limit : 1%} 
+				{% assign tabContent = tab | split: '@@##@@' | last %} 
+				{{ tabContent }} 
+				{% endfor %} 
+			</div> 
+			{% endif %} 
+		</div>
+
+	</div>
+
+</div>
+
+
+
+<style>
+	.tabOflingcontent .myofblock{
+		display:none
+	}
+	.tabOflingcontent .myofblock.active{
+		display:block;
+	}
+	.flextab{
+		display: flex;
+		flex-wrap:wrap;
+		align-items: center;
+	}
+	.flextab > div{
+		margin-right:30px;
+	}
+
+	.flextab a{
+		display: block;
+		font-size: 16px;
+		text-transform: uppercase;
+		color: #000;
+	}
+	.tabOflingcontent{
+		padding: 20px 0;
+	}
+	.flextab  a{
+
+		display: block;
+
+		padding: 10px 30px;
+	}
+	.flextab .active a{
+		font-weight: bold;
+		display: block;
+		background: #000;
+		color: #fff;
+		padding: 10px 30px;
+	}
+	.listOftab{
+		border-bottom: 2px solid #000;
+		padding-bottom: 3px;
+	}
+</style>
+<script>
+	$(document).ready(function(){
+
+
+		$(".flextab a").click(function(e){
+			e.preventDefault();
+			var flagtab = $(this).attr("datatab");
+			$(this).parent().siblings().removeClass("active");
+			$(this).parent().addClass("active")
+			$(".myofblock").removeClass("active");
+			$(".myofblock[datatab="+flagtab+"]").addClass("active");
+		})
+	})
+
+
+</script>
+
+
+
+
+
+
+

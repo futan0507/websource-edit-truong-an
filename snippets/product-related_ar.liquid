@@ -1,0 +1,55 @@
+<div class="list-productRelated clearfix">
+	<div class="heading-title text-center">
+		<h2>{{settings.ar_productspg_related_title}}</h2>
+	</div>
+
+	{% assign cp = product%}
+	{% assign number_of_related_products_to_show = settings.ar_productspg_featured_quantity %}
+	{% assign number_of_related_products_to_fetch = number_of_related_products_to_show %}
+	
+	{% if collection == null or collection.handle == 'frontpage' or collection.handle == 'all' %}
+	{% assign found_a_collection = false %}
+	{% for c in product.collections %}
+	{% if found_a_collection == false and c.handle != 'frontpage' and c.handle != 'all' and c.all_products_count > 1 %}
+	{% assign found_a_collection = true %}
+	{% assign collection = c %}
+	{% endif %}
+	{% endfor %}
+	{% endif %}
+
+	{% if collection and collection.products_count > 1 %}
+	<div class="content-product-list row">
+		{% assign current_product = product %}
+		{% assign current_product_found = false %}
+		{% assign counter_p = 0 %}
+		{% assign counter_last = number_of_related_products_to_show | minus: 1  %}
+
+		{% for product in collection.products%}
+		{%if counter_p >= number_of_related_products_to_show%}
+		{%break%}
+		{%endif%}
+
+		{%if cp.handle != product.handle %}
+		<div class="col-md-4 col-sm-6 col-xs-6 pro-loop {% if counter_p == counter_last %} pro-loop-lastHide {% endif %}">
+			{% include 'product-loop_ar' %}
+		</div>
+		{%assign counter_p =counter_p | plus : 1%}
+		{%endif%}
+		{% endfor %}
+	</div>
+	{%else%}
+	{%if collections.all.products.size > 0%}
+	<div class="content-product-list row">
+		{% for product in collections.all.products limit: number_of_related_products_to_fetch %}
+		{%if cp.handle != product.handle %}
+		<div class="col-md-4 col-sm-6 col-xs-6 pro-loop {% if forloop.last %} pro-loop-lastHide {% endif %}">
+			{% include 'product-loop_ar' %}
+		</div>
+		{%endif%}
+		{% endfor %}
+	</div>
+	{%else%}	
+	<p>...</p>
+	{%endif%}
+	{% endif %}	
+</div>

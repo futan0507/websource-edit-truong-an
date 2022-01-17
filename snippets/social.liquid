@@ -1,0 +1,31 @@
+<div class="flexsocial">
+								{%for i in (1..10)%}
+								{%capture show%}showsocial{{i}}{%endcapture%}
+								{%capture icon%}anhicon{{i}}.png{%endcapture%}
+								{%capture iconlink%}social_linksocial_{{i}}{%endcapture%}
+								{%if settings[show]%}
+								<div class="item">
+									<a href="{{settings[iconlink]}}"><img src="{{icon | asset_url}}" alt="social" /></a>
+								</div>
+								{%endif%}
+								{%endfor%}
+
+							</div>
+							<style>
+								.flexsocial{
+									display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+									display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+									display: -ms-flexbox;      /* TWEENER - IE 10 */
+									display: -webkit-flex;     /* NEW - Chrome */
+									display: flex;  
+									flex-wrap:wrap;
+								}
+								.flexsocial > div{
+									width:50px;
+									text-align:center;
+								}
+								.flexsocial img{
+									width:25px;
+									height:25px;
+								}
+							</style> 

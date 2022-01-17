@@ -1,0 +1,132 @@
+<div class="modal fade" id="kingmodal" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">المعلومات</h4>
+			</div>
+			<div class="modal-body content_popupform">
+				<div class="modal-form-contact">
+					{% form 'contact' %}
+					<div class="row">
+						{% if form.posted_successfully? %}			
+						<div class="hidden alert-success" id="success-popupform">Đăng ký thành công</div>				
+						{% endif %}
+						{% if form.errors %}
+						<div class="hidden alert-error" id="error-popupform">
+							{% for field in form.errors %}
+							{{ field }} {{ form.errors.messages[field] }}
+							{% endfor %} 
+						</div>
+						{% endif %}
+
+						<div class="col-sm-12 col-xs-12">
+							<div class="input-group">
+								<input required type="text" id="thename" name="contact[name]" class="form-control" placeholder="اسمك" aria-describedby="basic-addon1">
+							</div>
+						</div>
+						<div class="col-sm-12 col-xs-12">
+							<div class="input-group">
+								<input required type="email" id="theemail" name="contact[email]" class="form-control" placeholder="البريد الإلكتروني" aria-describedby="basic-addon1">
+							</div>
+						</div>
+						<div class="col-sm-12 col-xs-12">
+							<div class="input-group">
+								<input pattern="[0-9]{10,12}" id="thephone" required type="text" name="contact[phone]" class="form-control" placeholder="رقم الهاتف" aria-describedby="basic-addon1">
+							</div>
+						</div>
+						<div class="col-sm-12 col-xs-12">
+							<div class="input-group">
+								<input required type="text" name="contact[address]" id="thediachi" class="form-control" placeholder="عنوان" aria-describedby="basic-addon1">
+							</div>
+						</div>
+						
+						<div class="col-sm-12 col-xs-12">
+							<div class="input-group">
+								<textarea required name="contact[body]" id="thenoidung" placeholder="ملحوظة" class="form-control"></textarea>
+								<div class="sitebox-recaptcha hidden" >
+									This site is protected by reCAPTCHA and the Google
+									<a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">Privacy Policy</a> 
+									and <a href="https://policies.google.com/terms" target="_blank" rel="noreferrer">Terms of Service</a> apply.
+								</div>	
+							</div>
+						</div>
+						<div class="col-xs-12 text-center"><button type="submit" class="btnSubmit-modal button dark" >إرسال</button></div>
+					</div>
+					{% endform %}		
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+	.modal-open .modal {
+    background: rgb(0 0 0 / 32%);
+}
+	#kingmodal .modal-title{
+		font-size:18px;
+	}
+</style>
+
+<form action="/contact" method="post" id="cartformpage">
+	<input name="form_type" type="hidden" value="contact">
+	<input name="utf8" type="hidden" value="✓">
+	<input type="hidden" id="form_id_1" name="contact[name]" value=""/>
+	<input type="hidden" id="form_id_2" name="contact[email]" value=""/>
+	<input type="hidden" id="form_id_3" name="contact[phone]" value=""/>
+	<input type="hidden" id="form_id_4" name="contact[body]" value=""/>
+		<input id="code_capcha" name="g-recaptcha-response" type="hidden" value="">
+	<script src="https://www.google.com/recaptcha/api.js?render=6LdD18MUAAAAAHqKl3Avv8W-tREL6LangePxQLM-"></script>
+	<script>grecaptcha.ready(function() {grecaptcha.execute('6LdD18MUAAAAAHqKl3Avv8W-tREL6LangePxQLM-', {action: 'submit'}).then(function(token) {document.getElementById('code_capcha').value = token;});});</script>
+	<button type="submit" class="hidden" id="cartformpage_submit"></button>
+</form>
+
+<script>
+	
+	$(document).ready(function(){
+		
+		$('body').on('submit','#kingmodal .contact-form',function(e){
+			e.preventDefault();
+			var ten = "{{product.title}}";
+			var message = "Địa chỉ: " +  $(this).find("#thediachi").val() + '\n';  
+			 message += "Ghi chú: " + $(this).find("#thenoidung").val() + '\n'; 
+			 message += "Sản phẩm: " + ten + '\n'; 
+			 message += "Link Sản phẩm: " + location.href + '\n'; 
+			
+			var name = $(this).find("#thename").val();
+			var email = $(this).find("#theemail").val();
+			var phone = $(this).find("#thephone").val();
+			$('#form_id_1').val(name);
+			$('#form_id_2').val(email);
+			$('#form_id_3').val(phone);
+			$('#form_id_4').val(message);
+			$('#cartformpage_submit').trigger('click');
+		});
+		
+			$('#cartformpage').submit(function(e){
+			e.preventDefault();		
+			$.ajax({
+				type: 'POST',
+				url:'/contact',
+				data: $('#cartformpage').serialize(),			
+				success:function(data){	
+					$('.modal-contactform.fade.in').modal('hide');
+					setTimeout(function(){ 		
+						$('.modal-succesform').modal('show');							
+						setTimeout(function(){		
+							$('.modal-succesform.fade.in').modal('hide');								
+						}, 5000);
+					},300);
+				}
+			})
+		});
+	})
+	
+	
+
+</script>
+
+
+
+

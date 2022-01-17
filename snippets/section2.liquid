@@ -1,0 +1,64 @@
+
+{%if settings.use_category%}
+<section class="slider slider-feature bg-light-white" id="feature">
+	<div class="list js-feature  slick-slider ">
+		{%for i in (1..5)%}
+		{%capture show%}showcat{{i}}{%endcapture%}
+		{%capture title%}titlecat{{i}}{%endcapture%}
+		{%capture noidung%}titlecatnoidung{{i}}{%endcapture%}
+		{%capture tieudenut%}titcatnut{{i}}{%endcapture%}
+		{%capture linknut%}titcatnutlink{{i}}{%endcapture%}
+		{%capture banner%}titcatnutlinkrightban{{i}}{%endcapture%}
+		{%capture noidung2%}titcatnutlinkright{{i}}{%endcapture%}
+		{%if settings[show]%}
+		<div>
+			<div class="slider-item">
+				<div class="item">
+					<div class="i-left">
+						<div class="des">
+							<h2>{{settings[title]}}</h2>
+							<p>{{settings[noidung]}}</p>
+							<a href="{{settings[linknut]}}" class="btn btn-link" tabindex="-1">{{settings[tieudenut]}}</a>
+						</div>
+					</div>
+					<div class="i-right">
+						<span class="overlay">&nbsp;</span> <span class="overlay-img">&nbsp;</span>
+						<div class="img bg" style="background-image: url({{settings[banner]}})"></div>
+						<div class="des">
+							<p>{{settings[noidung2]}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{%endif%}
+		{%endfor%}
+
+	</div>
+	<a href="#" class="btn btn-slider js-feature-prev slick-arrow" style=""></a> <a href="#" class="btn btn-slider js-feature-next slick-arrow" style=""></a>
+</section>
+
+<script>
+
+	$(document).ready(function(){
+		$('#feature .slick-slider').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 6000,
+			dots:true,
+			arrows: true,
+			prevArrow: $('#feature  .js-feature-prev'),
+			nextArrow: $('#feature  .js-feature-next'),
+		});
+	})
+
+</script>
+{%endif%}
+
+
+
+
+
+
+

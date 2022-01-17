@@ -1,0 +1,27 @@
+
+
+{%if settings.ar_hienthipolicy%}
+<section class="section fp-auto-height panel panel-services">
+	<div class="inner">
+		<div class="list">
+			{%for i in (1..4)%}
+			{%capture show%}ar_thongtin{{i}}show{%endcapture%}
+			{%capture img%}ar_iconpolicy{{i}}{%endcapture%}
+				{%capture img2%}ar_iconpolicy{{i}}h{%endcapture%}
+			{%capture noidung%}ar_noidungpolici{{i}}{%endcapture%}
+			{%capture link%}ar_linkpolicy{{i}}{%endcapture%}
+			{%if settings[show]%}
+			<div class="item">
+				<a href="{{settings[link]}}">
+					<div class="box">
+						<div class="icon"><img src="{{settings[img]}}"><img src="{{settings[img2]}}"></div>
+						<p>{{settings[noidung]}}</p>
+					</div>
+				</a>
+			</div>
+			{%endif%}
+			{%endfor%}
+		</div>
+	</div>
+</section>
+{%endif%}

@@ -1,0 +1,26 @@
+<!--+++++++++++++++++++++++++  CSS ++++++++++++++++++++++++-->
+{%- unless settings.base_font contains 'Arial' or settings.base_font contains 'Montserrat' -%}
+{%- if settings.base_font -%}
+<link rel="stylesheet" type="text/css" href="//hstatic.net/0/0/global/design/member/fonts-master/{{settings.base_font | replace: ' ', '' | downcase}}.css">
+{%- endif -%}
+{%- endunless -%}
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=vietnamese" rel="stylesheet">
+{% include 'plugins-css' %}
+{{'styles.css' | asset_url | stylesheet_tag }}
+{{'newcss.css' | asset_url | stylesheet_tag }}
+{{'cus.css' | asset_url | stylesheet_tag }}
+<!--+++++++++++++++++++++++++  JS ++++++++++++++++++++++++-->
+{{'jquery.min.1.11.0.js' | asset_url | script_tag }}
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+				
+
+<script>
+var template = '{{template | strip_html | escape  }}';
+var formatMoney = '{{ shop.money_format }}';
+jQuery.themeAssets = {
+	arrowDown: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 12 8" style="enable-background:new 0 0 12 8; width: 12px; height: 8px;" xml:space="preserve"><polyline points="0,2 2,0 6,4 10,0 12,2 6,8 0,2 "/></svg>',
+	arrowRight: '<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 31 10" style="enable-background:new 0 0 31 10; width: 31px; height: 10px;" xml:space="preserve"><polygon points="31,5 25,0 25,4 0,4 0,6 25,6 25,10 "/></svg>',
+};
+jQuery.themeCartSettings = 'overlay';
+</script>

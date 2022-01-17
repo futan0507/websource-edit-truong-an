@@ -1,0 +1,64 @@
+{%if collection.handle == 'all' or blog.handle == 'all'%}
+<script>
+	location.href="/";
+</script>
+{%endif%}
+
+
+<script>
+	
+$(document).ready(function(){
+	$(".lang_vi").click(function(event){
+		event.preventDefault();
+		localStorage.setItem('template','theme');
+		window.location.href="/";
+	})
+$(".lang_en").click(function(event){
+		event.preventDefault();
+		localStorage.setItem('template','en');
+		window.location.href="/?view=en";
+	})
+$(".lang_ar").click(function(event){
+		event.preventDefault();
+		localStorage.setItem('template','ar');
+		window.location.href="/?view=ar";
+	})
+	$("form[action='/search']").submit(function(e){
+		e.preventDefault();
+		var lang = $("body").attr("data-lang");
+		if(lang == 'en'){
+			location.href = '/search?q=filter=((title:product**'+$(this).find("input[name= 'q']").val()+')'+encodeURIComponent('&&')+'(tag:product=en))&view=en';
+		}
+		else if(lang == 'ar'){
+			location.href = '/search?q=filter=((title:product**'+$(this).find("input[name= 'q']").val()+')'+encodeURIComponent('&&')+'(tag:product=ar))&view=ar';
+		}
+		else{
+			location.href = '/search?q=filter=((title:product**'+$(this).find("input[name= 'q']").val()+')'+encodeURIComponent('&&')+'(tag:product<>en))';
+		}
+
+	})
+	
+	
+	
+})
+</script>
+<style>
+	.subtext-result{
+		display:none
+	}
+	#homepage_slider img{
+		width:100% !important
+	}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+

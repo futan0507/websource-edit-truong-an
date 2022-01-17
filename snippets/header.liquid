@@ -1,0 +1,91 @@
+<header class="">
+	<div class="top">
+		<div class="inner">
+			<div class="languages">
+				<ul>
+					<li>
+						<a href="#" class="social-network lang_vi on">VIETNAM</a>
+					</li>
+					<li>
+						<a href="#" class="social-network lang_en ">ENGLISH</a>
+					</li>
+					<li>
+						<a href="#" class="social-network lang_ar ">ARABIC</a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="contact">
+				{%if settings.use_info_header%}
+				<p class="phone"> <span class="icn icn-call">&nbsp;</span> <a href="tel:{{settings.info_headerphone}}"><span class="txt">{{settings.info_headerphone}}</span></a> <span class="icn icn-arrow">&nbsp;</span></p>
+				{%endif%}
+			</div>
+			<div class="account">
+				<header-top>
+					<div class="item">
+						<ul class="">
+							{%include 'social'%}
+						</ul>
+					</div>
+				</header-top>
+			</div>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="inner">
+			<div class="h-left"> <a href="/" class="logox"><img src="{{settings.logo}}"></a>
+				<a class="location" href="{{settings.info_headerphonecanhlogolink}}" target="_blank"> 
+					<span class="icn icn-location">&nbsp;</span> <span class="txt">{{settings.info_headerphonecanhlogo}}</span> </a></div>
+			<div class="h-right">
+				<div class="nav-sp">
+					<ul id="menu-header" class="menu">
+						{%assign x = 1%}
+						{%for link in linklists[settings.mainmenu_link].links%}
+						{%if linklists[link.handle].size > 0%}
+						<li class="menu-item menu-products">
+							<a href="{{link.url}}">{{link.title}}</a> <a href="" class="expand"><span class="icn">&nbsp;</span></a>
+							<div class="dropdown">
+								<div class="dropdown-wrap">
+									<span class="line">&nbsp;</span>
+									<ul class="isotope-filter" id="filters">
+										{%for link2 in linklists[link.handle].links%}
+										<li><a href="{{link.url}}">{{link2.title}}</a></li>
+										{%endfor%}
+									</ul>
+									{%if x == 2%}
+									<div class="isotope-list">
+										{%for link3 in linklists[settings.mainmenu_linkmobilesanpham].links%}
+										<div class="item">
+											<a href="{{link3.url}}">
+												<div class="img kingm"> <img src="{{link3.object.image.src}}" alt="{{link3.title}}"></div>
+												<p class="txt">{{link3.title}}</p>
+											</a>
+										</div>
+										{%endfor%}
+
+									</div>
+									{%endif%}
+								</div>
+							</div>
+						</li>
+						{%else%}
+						<li class="menu-item menu-news"><a href="{{link.url}}">{{link.title}}</a></li>
+						{%endif%}
+						{%assign x = x |plus: 1%}
+						{%endfor%}
+
+					</ul>
+				
+				</div>
+				<a href="#" class="search"> <span class="icn icn-search">&nbsp;</span> </a> 
+				{%include 'mobilena'%}
+				
+				
+			</div>
+		</div>
+	</div>
+	<form action="/search" class="h-form-search">
+		<input type="hidden" name="type" value="product">
+		<div class="inner"> <button type="submit" class="f-ctr f-search"> <span class="icn icn-search">&nbsp;</span> </button> <input type="text" placeholder="Tìm kiếm..." value="" name="q"> <input type="hidden" name="post_type" value="product"> <a href="#" class="f-ctr f-close"> <span class="icn icn-close">&nbsp;</span> </a></div>
+	</form>
+</header>

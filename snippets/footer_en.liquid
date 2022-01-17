@@ -1,0 +1,71 @@
+{%include 'polici_en'%}
+
+<footer class="section fp-auto-height">
+   <div class="inner">
+      <div class="top">
+         <div class="list">
+            <div class="item">
+               <p class="title">{{settings.en_footer1_title}}</p>
+               <div role="form" class="wpcf7" id="wpcf7-f1919-o1" lang="en-US" dir="ltr">
+                  <div class="screen-reader-response"></div>
+                  	{% form 'customer' %}
+						<input type="hidden" id="contact_tags" name="contact[tags]" value="Đăng kí nhận tin" />    
+						<input required type="email"  name="contact[email]" id="contact_email2" class="form-control form-email-popup-contact"  placeholder="Email"  aria-label="contact_email"/>
+						<button type="submit" class="input-group-addon button dark btn-reg-popup-contact"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+
+						{%endform%}
+               </div>
+               <style type="text/css">footer .top .form input{padding:16px 12px}footer .top .form .sent{border:0;color:#00B380;font-size:0;background-image:url(https://cdn.ameco.vn/wp-content/themes/ameco-vietnam/images/icons/icn-arr-black.png);background-size:8px auto;background-color:#fff;background-position:center;border-radius:4px;background-repeat:no-repeat}.slider.slider-gallery .item:hover{opacity:1}</style>
+              {{pages[settings.en_footer1_information].content}} 
+							</div>
+         </div>
+         <div class="list">
+            <div class="item">
+               <p class="title">{{settings.en_footer_link1_title2}}</p>
+               <ul id="menu-footer-1" class="menu">
+								 {%for link in linklists[settings.en_footer_link1_menu2].links%}
+                  <li class="active menu-item menu-homepage"><a href="{{link.url}}" aria-current="page">{{link.title}}</a></li>
+              {%endfor%}     
+							</ul>
+            </div>
+            <div class="item">
+               <p class="title">{{settings.en_footer_link1_title3}}</p>
+               <ul id="menu-footer-2" class="menu">
+                  {%for link in linklists[settings.en_footer_link1_menu3].links%}
+                  <li class="active menu-item menu-homepage"><a href="{{link.url}}" aria-current="page">{{link.title}}</a></li>
+              {%endfor%}  </ul>
+            </div>
+            <div class="item">
+              <p class="title">{{settings.en_footer_link1_title4}}</p>
+               <ul id="menu-footer-3" class="menu">
+                  {%for link in linklists[settings.en_footer_link1_menu4].links%}
+                  <li class="active menu-item menu-homepage"><a href="{{link.url}}" aria-current="page">{{link.title}}</a></li>
+              {%endfor%}   </ul>
+            </div>
+            <div class="item">
+               <p class="title">{{settings.en_footer_link1_title5}}</p>
+               <ul id="menu-footer-4" class="menu">
+                  {%for link in linklists[settings.en_footer_link1_menu5].links%}
+                  <li class="active menu-item menu-homepage"><a href="{{link.url}}" aria-current="page">{{link.title}}</a></li>
+              {%endfor%}  </ul>
+            </div>
+         </div>
+      </div>
+      <div style="display: none" class="DMCA">
+         <a href="https://www.dmca.com/Protection/Status.aspx?ID=ffd6fc2f-059a-4126-b266-5d0b1de1d240&amp;refurl=https://ameco.vn/" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca_protected_sml_120f.png?ID=ffd6fc2f-059a-4126-b266-5d0b1de1d240" alt="DMCA.com Protection Status"></a> <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script> 
+      </div>
+      <div class="bottom">
+         <a href="#" class="back-to-top"></a>
+         <div class="list">
+            <div class="item">
+               <ul class="social">
+              {%include 'social_en'%}    
+							</ul>
+            </div>
+            <div class="item">
+               <p>{{settings.en_footer_link1_title5cc}}</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>

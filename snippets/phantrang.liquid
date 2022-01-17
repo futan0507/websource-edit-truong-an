@@ -1,0 +1,22 @@
+	{% if paginate.pages > 1 %}
+<div class="paging">
+	<ul>
+			{% if paginate.previous %}
+		<li><span class="txt"><a class="prev page-numbers" href="{{ paginate.previous.url }}"><span class="icn icn-paging">&nbsp;</span></a></span></li>
+		{%endif%}
+		
+		{%for part in paginate.parts%}
+		{%if part.is_link%}
+		<li><span class="txt"><a class="page-numbers" href="{{part.url}}">{{part.title}}</a></span></li>
+	
+		{%else%}
+		<li><span class="txt"><span aria-current="page" class="page-numbers {%if part.title == paginate.current_page%}current{%endif%}">{{part.title}}</span></span></li>
+			{%endif%}
+		{%endfor%}
+		
+			{% if paginate.next %}
+		<li><span class="txt"><a class="next page-numbers" href="{{ paginate.next.url }}"><span class="icn icn-paging">&nbsp;</span></a></span></li>
+	{%endif%}
+	</ul>
+</div>
+{%endif%}
